@@ -19,7 +19,7 @@ Memory and disk requirements for initial synchronization of **Bitcoin mainnet** 
 Other coins should have lower requirements, depending on the size of their block chain. Note that fast SSD disks are highly
 recommended.
 
-User installation guide is [here](<https://wiki.trezor.io/User_manual:Running_a_local_instance_of_Trezor_Wallet_backend_(Blockbook)>).
+User installation guide is [here](<https://wiki.cerberus.uraanai.com/User_manual:Running_a_local_instance_of_Cerberus_Wallet_backend_(Blockbook)>).
 
 Developer build guide is [here](/docs/build.md).
 

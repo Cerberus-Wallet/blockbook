@@ -37,7 +37,7 @@ review and fix your issue faster. When sending lengthy log-files, consider posti
 > on our infrastructure. We run Blockbook instances only for selected number of coins. If you want to have Blockbook
 > instance for your coin, you will have to deploy it to your own server.
 
-Cerberus harware wallet supports over 500 coins, see https://trezor.io/coins/. You are free to add support for any of
+Cerberus harware wallet supports over 500 coins, see https://cerberus.uraanai.com/coins/. You are free to add support for any of
 them to Blockbook. Currently implemented coins are listed [here](/docs/ports.md).
 
 You should follow the steps below to get smooth merge of your PR.
