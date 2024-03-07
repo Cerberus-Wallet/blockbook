@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Cerberus-Wallet/blockbook/api"
+	"github.com/Cerberus-Wallet/blockbook/common"
 	"github.com/golang/glog"
-	"github.com/trezor/blockbook/api"
-	"github.com/trezor/blockbook/common"
 )
 
 type tpl int

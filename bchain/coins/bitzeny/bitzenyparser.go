@@ -1,7 +1,7 @@
 package bitzeny
 
 import (
-	"github.com/trezor/blockbook/bchain/coins/btc"
+	"github.com/Cerberus-Wallet/blockbook/bchain/coins/btc"
 
 	"github.com/martinboehm/btcd/wire"
 	"github.com/martinboehm/btcutil/chaincfg"

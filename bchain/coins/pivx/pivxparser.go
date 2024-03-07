@@ -9,12 +9,12 @@ import (
 	"io"
 	"math/big"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/bchain/coins/btc"
 	"github.com/juju/errors"
 	"github.com/martinboehm/btcd/blockchain"
 	"github.com/martinboehm/btcd/wire"
 	"github.com/martinboehm/btcutil/chaincfg"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/btc"
 )
 
 // magic numbers

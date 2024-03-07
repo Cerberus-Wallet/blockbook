@@ -6,6 +6,8 @@ import (
 	"fmt"
 	"net/url"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/bchain/coins/eth"
 	jsontypes "github.com/ava-labs/avalanchego/utils/json"
 	"github.com/ava-labs/coreth/core/types"
 	"github.com/ava-labs/coreth/ethclient"
@@ -15,8 +17,6 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/golang/glog"
 	"github.com/juju/errors"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/eth"
 )
 
 const (

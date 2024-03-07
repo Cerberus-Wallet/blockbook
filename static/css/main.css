@@ -335,7 +335,7 @@ span.btn-paging:hover {
     content: ",";
 }
 
-.trezor-logo {
+.cerberus-logo {
     width: 128px;
     height: 32px;
     position: absolute;
@@ -647,7 +647,7 @@ span.btn-paging:hover {
         right: initial;
     }
 
-    .trezor-logo {
+    .cerberus-logo {
         top: 10px;
     }
 

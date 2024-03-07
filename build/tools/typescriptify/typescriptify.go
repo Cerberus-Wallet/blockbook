@@ -5,10 +5,10 @@ import (
 	"math/big"
 	"time"
 
+	"github.com/Cerberus-Wallet/blockbook/api"
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/server"
 	"github.com/tkrajina/typescriptify-golang-structs/typescriptify"
-	"github.com/trezor/blockbook/api"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/server"
 )
 
 func main() {

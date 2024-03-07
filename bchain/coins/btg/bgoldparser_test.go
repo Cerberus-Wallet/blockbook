@@ -11,8 +11,8 @@ import (
 	"path/filepath"
 	"testing"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain/coins/btc"
 	"github.com/martinboehm/btcutil/chaincfg"
-	"github.com/trezor/blockbook/bchain/coins/btc"
 )
 
 func TestMain(m *testing.M) {

@@ -4,7 +4,7 @@ import (
 	"encoding/hex"
 	"math/big"
 
-	"github.com/trezor/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/bchain"
 )
 
 // Addresses

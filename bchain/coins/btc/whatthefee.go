@@ -8,9 +8,9 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
 	"github.com/golang/glog"
 	"github.com/juju/errors"
-	"github.com/trezor/blockbook/bchain"
 )
 
 // https://whatthefee.io returns

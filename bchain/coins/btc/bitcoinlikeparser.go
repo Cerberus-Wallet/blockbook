@@ -11,6 +11,7 @@ import (
 	"strings"
 	"unicode/utf8"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
 	vlq "github.com/bsm/go-vlq"
 	"github.com/juju/errors"
 	"github.com/martinboehm/btcd/blockchain"
@@ -20,7 +21,6 @@ import (
 	"github.com/martinboehm/btcutil/chaincfg"
 	"github.com/martinboehm/btcutil/hdkeychain"
 	"github.com/martinboehm/btcutil/txscript"
-	"github.com/trezor/blockbook/bchain"
 )
 
 // OutputScriptToAddressesFunc converts ScriptPubKey to bitcoin addresses

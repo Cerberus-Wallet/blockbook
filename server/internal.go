@@ -9,13 +9,13 @@ import (
 	"path/filepath"
 	"sort"
 
+	"github.com/Cerberus-Wallet/blockbook/api"
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/common"
+	"github.com/Cerberus-Wallet/blockbook/db"
+	"github.com/Cerberus-Wallet/blockbook/fiat"
 	"github.com/golang/glog"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/trezor/blockbook/api"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/common"
-	"github.com/trezor/blockbook/db"
-	"github.com/trezor/blockbook/fiat"
 )
 
 // InternalServer is handle to internal http server

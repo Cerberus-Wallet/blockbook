@@ -1,11 +1,11 @@
 package db
 
 import (
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/bchain/coins/eth"
+	"github.com/Cerberus-Wallet/blockbook/common"
 	"github.com/golang/glog"
 	"github.com/juju/errors"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/eth"
-	"github.com/trezor/blockbook/common"
 )
 
 // TxCache is handle to TxCacheServer

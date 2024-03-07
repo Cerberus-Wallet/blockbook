@@ -9,15 +9,15 @@ import (
 	"strings"
 	"time"
 
+	"github.com/Cerberus-Wallet/blockbook/api"
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/common"
+	"github.com/Cerberus-Wallet/blockbook/db"
+	"github.com/Cerberus-Wallet/blockbook/fiat"
 	"github.com/golang/glog"
 	"github.com/juju/errors"
 	gosocketio "github.com/martinboehm/golang-socketio"
 	"github.com/martinboehm/golang-socketio/transport"
-	"github.com/trezor/blockbook/api"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/common"
-	"github.com/trezor/blockbook/db"
-	"github.com/trezor/blockbook/fiat"
 )
 
 // SocketIoServer is handle to SocketIoServer
@@ -486,7 +486,7 @@ type resultGetBlockHeader struct {
 
 func (s *SocketIoServer) getBlockHeader(height uint32, hash string) (res resultGetBlockHeader, err error) {
 	if hash == "" {
-		// trezor is interested only in hash
+		// Cerberus is interested only in hash
 		hash, err = s.db.GetBlockHash(height)
 		if err != nil {
 			return

@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/tests/dbtestdata"
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/tests/dbtestdata"
 )
 
 func TestEthParser_GetAddrDescFromAddress(t *testing.T) {
