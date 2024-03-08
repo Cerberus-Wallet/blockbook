@@ -18,7 +18,7 @@ import (
 
 const (
 	configsDir            = "configs"
-	cerberusCommonDefsURL = "https://raw.githubusercontent.com/Cerberus-Wallet/trezor-firmware/master/common/defs/bitcoin/"
+	cerberusCommonDefsURL = "https://raw.githubusercontent.com/Cerberus-Wallet/cerberus-firmware/master/common/defs/bitcoin/"
 )
 
 type cerberusCommonDef struct {
