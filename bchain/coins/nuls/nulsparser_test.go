@@ -8,11 +8,11 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/bchain/coins/btc"
+	"github.com/Cerberus-Wallet/blockbook/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/martinboehm/btcutil/hdkeychain"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/btc"
-	"github.com/trezor/blockbook/common"
 )
 
 var (

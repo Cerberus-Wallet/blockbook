@@ -3,9 +3,9 @@ package db
 import (
 	"time"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
 	"github.com/golang/glog"
 	"github.com/linxGnu/grocksdb"
-	"github.com/trezor/blockbook/bchain"
 )
 
 // bulk connect

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"math/big"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/common"
 	"github.com/martinboehm/btcutil/chaincfg"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/common"
 )
 
 // BitcoinParser handle

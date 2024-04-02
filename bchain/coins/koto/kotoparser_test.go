@@ -10,9 +10,9 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/bchain/coins/btc"
 	"github.com/martinboehm/btcutil/chaincfg"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/btc"
 )
 
 var (

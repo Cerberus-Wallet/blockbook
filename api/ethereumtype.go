@@ -3,10 +3,10 @@ package api
 import (
 	"sync"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/db"
 	"github.com/golang/glog"
 	"github.com/linxGnu/grocksdb"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/db"
 )
 
 // refetch internal data

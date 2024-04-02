@@ -12,12 +12,12 @@ import (
 	"testing"
 	"time"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/bchain/coins/btc"
+	"github.com/Cerberus-Wallet/blockbook/common"
+	"github.com/Cerberus-Wallet/blockbook/db"
 	"github.com/golang/glog"
 	"github.com/martinboehm/btcutil/chaincfg"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/btc"
-	"github.com/trezor/blockbook/common"
-	"github.com/trezor/blockbook/db"
 )
 
 func TestMain(m *testing.M) {

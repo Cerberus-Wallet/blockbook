@@ -11,14 +11,14 @@ import (
 	"sync/atomic"
 	"time"
 
+	"github.com/Cerberus-Wallet/blockbook/api"
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/common"
+	"github.com/Cerberus-Wallet/blockbook/db"
+	"github.com/Cerberus-Wallet/blockbook/fiat"
 	"github.com/golang/glog"
 	"github.com/gorilla/websocket"
 	"github.com/juju/errors"
-	"github.com/trezor/blockbook/api"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/common"
-	"github.com/trezor/blockbook/db"
-	"github.com/trezor/blockbook/fiat"
 )
 
 const upgradeFailed = "Upgrade failed: "
@@ -277,8 +277,8 @@ var requestHandlers = map[string]func(*WebsocketServer, *websocketChannel, *WsRe
 				c.getAddressInfoDescriptorsMux.Unlock()
 				if l > s.is.WsGetAccountInfoLimit {
 					if s.closeChannel(c) {
-					glog.Info("Client ", c.id, " exceeded getAddressInfo limit, ", c.ip)
-					s.is.AddWsLimitExceedingIP(c.ip)
+						glog.Info("Client ", c.id, " exceeded getAddressInfo limit, ", c.ip)
+						s.is.AddWsLimitExceedingIP(c.ip)
 					}
 					return
 				}

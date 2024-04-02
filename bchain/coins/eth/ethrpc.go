@@ -12,6 +12,8 @@ import (
 	"sync"
 	"time"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/common"
 	"github.com/ethereum/go-ethereum"
 	ethcommon "github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
@@ -20,8 +22,6 @@ import (
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/golang/glog"
 	"github.com/juju/errors"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/common"
 )
 
 // Network type specifies the type of ethereum network
@@ -34,6 +34,8 @@ const (
 	TestNetSepolia Network = 11155111
 	// TestNetHolesky is Holesky test network
 	TestNetHolesky Network = 17000
+	// TestNetVanguard is Vanguard (VG) test network
+	TestNetVanguard Network = 78600
 )
 
 // Configuration represents json config file
@@ -150,6 +152,9 @@ func (b *EthereumRPC) Initialize() error {
 	case TestNetHolesky:
 		b.Testnet = true
 		b.Network = "holesky"
+	case TestNetVanguard:
+		b.Testnet = true
+		b.Network = "vanguard"
 	default:
 		return errors.Errorf("Unknown network id %v", id)
 	}

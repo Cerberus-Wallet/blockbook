@@ -8,12 +8,12 @@ import (
 	"reflect"
 	"testing"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/bchain/coins/eth"
+	"github.com/Cerberus-Wallet/blockbook/common"
+	"github.com/Cerberus-Wallet/blockbook/tests/dbtestdata"
 	"github.com/juju/errors"
 	"github.com/linxGnu/grocksdb"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/eth"
-	"github.com/trezor/blockbook/common"
-	"github.com/trezor/blockbook/tests/dbtestdata"
 )
 
 type testEthereumParser struct {

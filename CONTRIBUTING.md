@@ -1,7 +1,7 @@
 # Blockbook Contributor Guide
 
-Blockbook is a back-end service for the Trezor wallet. Although it is open source, the design and development of the core packages
-is done by the Trezor developers to keep Blockbook compatible with Trezor.
+Blockbook is a back-end service for the Cerberus wallet. Although it is open source, the design and development of the core packages
+is done by the Cerberus developers to keep Blockbook compatible with Cerberus.
 
 Bug fixes and support for new coins are welcome. **Please take note that pull requests that are not fixes and that change base
 packages or another coin code will not be accepted.** If you need a change in the existing core code, please file
@@ -19,7 +19,7 @@ Instructions to set up your development environment and build Blockbook are desc
 A great way to contribute to the project is to send a detailed report when you encounter a problem. We always appreciate
 a well-written and thorough bug report, and we'll be grateful for it!
 
-Check that [our issue database](https://github.com/trezor/blockbook/issues) doesn't already include that problem or
+Check that [our issue database](https://github.com/Cerberus-Wallet/blockbook/issues) doesn't already include that problem or
 suggestion before submitting an issue. If you find a match, you can use the "subscribe" button to get notified on
 updates. Do not leave random "+1" or "I have this too" comments, as they only clutter the discussion, and don't help
 resolving it. However, if you have ways to reproduce the issue or have additional information that may help resolving
@@ -37,7 +37,7 @@ review and fix your issue faster. When sending lengthy log-files, consider posti
 > on our infrastructure. We run Blockbook instances only for selected number of coins. If you want to have Blockbook
 > instance for your coin, you will have to deploy it to your own server.
 
-Trezor harware wallet supports over 500 coins, see https://trezor.io/coins/. You are free to add support for any of
+Cerberus harware wallet supports over 500 coins, see https://cerberus.uraanai.com/coins/. You are free to add support for any of
 them to Blockbook. Currently implemented coins are listed [here](/docs/ports.md).
 
 You should follow the steps below to get smooth merge of your PR.

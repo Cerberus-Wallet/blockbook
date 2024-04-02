@@ -32,7 +32,7 @@ Good examples of coin configuration are
     * `backend_*` – Additional back-end ports can be documented here. Actually the only purpose is to get them to
        port table (prefix is removed and rest of string is used as note).
     * `blockbook_internal` – Blockbook's internal port that is used for metric collecting, debugging etc.
-    * `blockbook_public` – Blockbook's public port that is used to communicate with Trezor wallet (via Socket.IO).
+    * `blockbook_public` – Blockbook's public port that is used to communicate with Cerberus wallet (via Socket.IO).
 
 * `ipc` – Defines how Blockbook connects its back-end service.
     * `rpc_url_template` – Template that defines URL of back-end RPC service. See note on templates below.
@@ -106,7 +106,7 @@ as well. Note that dot at the beginning is mandatory. Go template syntax is full
 ## Built-in text
 
 Since Blockbook is an open-source project and we don't prevent anybody from running independent instances, it is possible
-to alter built-in text that is specific for Trezor. Text fields that could be updated are:
+to alter built-in text that is specific for Cerberus. Text fields that could be updated are:
 
  * [about](/build/text/about) – A note about instance shown on the Application status page and returned by an API.
  * [tos_link](/build/text/tos_link) – A link to Terms of service shown as the footer on the Explorer pages.

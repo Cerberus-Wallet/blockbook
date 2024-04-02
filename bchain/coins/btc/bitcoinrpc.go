@@ -12,11 +12,11 @@ import (
 	"runtime/debug"
 	"time"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/common"
 	"github.com/golang/glog"
 	"github.com/juju/errors"
 	"github.com/martinboehm/btcd/wire"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/common"
 )
 
 // BitcoinRPC is an interface to JSON-RPC bitcoind service.

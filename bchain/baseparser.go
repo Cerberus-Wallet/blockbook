@@ -6,9 +6,9 @@ import (
 	"math/big"
 	"strings"
 
+	"github.com/Cerberus-Wallet/blockbook/common"
 	"github.com/golang/glog"
 	"github.com/juju/errors"
-	"github.com/trezor/blockbook/common"
 	"google.golang.org/protobuf/proto"
 )
 

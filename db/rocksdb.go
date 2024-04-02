@@ -14,12 +14,12 @@ import (
 	"time"
 	"unsafe"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/common"
 	vlq "github.com/bsm/go-vlq"
 	"github.com/golang/glog"
 	"github.com/juju/errors"
 	"github.com/linxGnu/grocksdb"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/common"
 )
 
 const dbVersion = 6

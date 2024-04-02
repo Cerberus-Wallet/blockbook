@@ -3,9 +3,9 @@ package fujicoin
 import (
 	"encoding/json"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/bchain/coins/btc"
 	"github.com/golang/glog"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/btc"
 )
 
 // FujicoinRPC is an interface to JSON-RPC bitcoind service.

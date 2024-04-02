@@ -2,7 +2,7 @@
 
 package sync
 
-import "github.com/trezor/blockbook/bchain"
+import "github.com/Cerberus-Wallet/blockbook/bchain"
 
 type fakeBlockChain struct {
 	bchain.BlockChain

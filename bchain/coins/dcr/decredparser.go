@@ -9,6 +9,9 @@ import (
 	"math/big"
 	"strconv"
 
+	"github.com/Cerberus-Wallet/blockbook/bchain"
+	"github.com/Cerberus-Wallet/blockbook/bchain/coins/btc"
+	"github.com/Cerberus-Wallet/blockbook/bchain/coins/utils"
 	"github.com/decred/dcrd/chaincfg/chainhash"
 	cfg "github.com/decred/dcrd/chaincfg/v3"
 	"github.com/decred/dcrd/dcrec"
@@ -19,9 +22,6 @@ import (
 	"github.com/martinboehm/btcd/wire"
 	"github.com/martinboehm/btcutil/base58"
 	"github.com/martinboehm/btcutil/chaincfg"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/btc"
-	"github.com/trezor/blockbook/bchain/coins/utils"
 )
 
 const (
