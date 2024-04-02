@@ -12,7 +12,6 @@ import (
 	"github.com/Cerberus-Wallet/blockbook/bchain"
 	"github.com/Cerberus-Wallet/blockbook/bchain/coins/avalanche"
 	"github.com/Cerberus-Wallet/blockbook/bchain/coins/bch"
-	"github.com/Cerberus-Wallet/blockbook/bchain/coins/bellcoin"
 	"github.com/Cerberus-Wallet/blockbook/bchain/coins/bitcore"
 	"github.com/Cerberus-Wallet/blockbook/bchain/coins/bitzeny"
 	"github.com/Cerberus-Wallet/blockbook/bchain/coins/bsc"
@@ -115,7 +114,6 @@ func init() {
 	BlockChainFactories["Firo"] = firo.NewFiroRPC
 	BlockChainFactories["Fujicoin"] = fujicoin.NewFujicoinRPC
 	BlockChainFactories["Flo"] = flo.NewFloRPC
-	BlockChainFactories["Bellcoin"] = bellcoin.NewBellcoinRPC
 	BlockChainFactories["Qtum"] = qtum.NewQtumRPC
 	BlockChainFactories["Viacoin"] = viacoin.NewViacoinRPC
 	BlockChainFactories["Qtum Testnet"] = qtum.NewQtumRPC
