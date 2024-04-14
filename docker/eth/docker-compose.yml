@@ -10,6 +10,11 @@ services:
     #   - nginx
     privileged: true  # Necessary for systemd
     ports:
+      - 8036:8036
+      - 38336:38336
+      - 8136:8136
+      - 8536:8536
+      - 9036:9036
       - 9136:9136
 
   # Nginx service as a proxy

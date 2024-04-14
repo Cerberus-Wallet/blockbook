@@ -43,9 +43,8 @@ RUN dpkg -i /tmp/blockbook-ethereum_0.4.0_amd64.deb
 # RUN for deb in /tmp/*.deb; do dpkg -i $deb && rm $deb; done
 
 # Enable and start your service
-RUN systemctl enable backend-ethereum.service 
-#&& \
-#    systemctl enable blockbook-ethereum.service
+RUN systemctl enable backend-ethereum.service && \
+    systemctl enable blockbook-ethereum.service
 
 # Start systemd
 CMD ["/lib/systemd/systemd"]

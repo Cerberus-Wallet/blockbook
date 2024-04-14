@@ -17,8 +17,8 @@ RUN apt-get update && \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 # Copy .deb packages from the local build folder into the image
-COPY ../../build/backend-ethereum-testnet-vanguard_2.58.1-satoshilabs-1_amd64.deb /tmp/
-COPY ../../build/blockbook-ethereum-testnet-vanguard_0.4.0_amd64.deb /tmp/
+COPY ./backend-ethereum-testnet-vanguard_2.58.1-satoshilabs-1_amd64.deb /tmp/
+COPY ./blockbook-ethereum-testnet-vanguard_0.4.0_amd64.deb /tmp/
 
 # RUN mkdir -p /opt/coins
 # RUN chmod -R 777 /opt/coins
