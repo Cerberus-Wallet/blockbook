@@ -16,4 +16,3 @@ sudo apt purge backend-ethereum-testnet-vanguard -y
 # 
 # # Remove installation directory
 sudo rm -r /opt/coins
-

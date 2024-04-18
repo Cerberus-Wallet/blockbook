@@ -437,7 +437,8 @@ func (b *EthereumRPC) getBestHeader() (bchain.EVMHeader, error) {
 		var err error
 		ctx, cancel := context.WithTimeout(context.Background(), b.Timeout)
 		defer cancel()
-		b.bestHeader, err = b.Client.HeaderByNumber(ctx, nil)
+		// b.bestHeader, err = b.Client.HeaderByNumber(ctx, nil)
+		b.bestHeader, err = b.CustomHeaderByNumber(ctx, nil)
 		if err != nil {
 			b.bestHeader = nil
 			return nil, err
@@ -480,7 +481,8 @@ func (b *EthereumRPC) GetBlockHash(height uint32) (string, error) {
 	n.SetUint64(uint64(height))
 	ctx, cancel := context.WithTimeout(context.Background(), b.Timeout)
 	defer cancel()
-	h, err := b.Client.HeaderByNumber(ctx, &n)
+	// h, err := b.Client.HeaderByNumber(ctx, &n)
+	h, err := b.CustomHeaderByNumber(ctx, &n)
 	if err != nil {
 		if err == ethereum.NotFound {
 			return "", bchain.ErrBlockNotFound
@@ -1010,4 +1012,20 @@ func (b *EthereumRPC) EthereumTypeGetNonce(addrDesc bchain.AddressDescriptor) (u
 // GetChainParser returns ethereum BlockChainParser
 func (b *EthereumRPC) GetChainParser() bchain.BlockChainParser {
 	return b.Parser
+}
+
+func (b *EthereumRPC) CustomHeaderByNumber(ctx context.Context, number *big.Int) (bchain.EVMHeader, error) {
+	var result json.RawMessage
+
+	if err := b.RPC.CallContext(ctx, &result, "eth_getBlockByNumber", toBlockNumArg(number), false); err != nil {
+		return nil, err
+	}
+
+	var decodedData Data
+	err1 := json.Unmarshal([]byte(result), &decodedData)
+	if err1 != nil {
+		return nil, err1
+	}
+
+	return decodedData, nil
 }

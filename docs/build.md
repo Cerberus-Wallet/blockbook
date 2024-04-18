@@ -256,6 +256,8 @@ Example for Bitcoin:
 ```
 ./contrib/scripts/build-blockchaincfg.sh <coin>
 ./blockbook -sync -blockchaincfg=build/blockchaincfg.json -internal=:9030 -public=:9130 -certfile=server/testcert -logtostderr
+./contrib/scripts/build-blockchaincfg.sh ethereum_testnet_vanguard
+./blockbook -sync -blockchaincfg=build/blockchaincfg.json -internal=:19096 -public=:19196 -certfile=server/testcert -logtostderr
 ```
 
 This command starts Blockbook with parallel synchronization and providing HTTP and Socket.IO interface, with database

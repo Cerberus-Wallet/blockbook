@@ -1,7 +1,7 @@
 {
     "coin": {
         "name": "Ethereum Testnet Vanguard",
-        "shortcut": "VG",
+        "shortcut": "tVNG",
         "label": "Ethereum Vanguard",
         "alias": "ethereum_testnet_vanguard"
     },
@@ -23,12 +23,12 @@
         "package_revision": "satoshilabs-1",
         "system_user": "ethereum",
         "version": "2.58.1",
-        "binary_url": "http://64.227.154.201:2018/vanar.zip",
+        "binary_url": "http://64.227.154.201:2018/vanar.tar.xz",
         "verification_type": "",
         "verification_source": "",
-        "extract_command": "unzip -d backend",
+        "extract_command": "tar -C backend -xf",
         "exclude_files": [],
-        "exec_command_template": "/bin/sh -c '{{.Env.BackendInstallPath}}/{{.Coin.Alias}}/geth --vanguard --syncmode 'full' --datadir {{.Env.BackendDataPath}}/{{.Coin.Alias}}/backend/vanar --port {{.Ports.BackendP2P}} --ws --ws.port {{.Ports.BackendRPC}} --ws.api \"eth,net,web3,txpool,debug\" --http --http.port {{.Ports.BackendRPC}} --http.addr 127.0.0.1 --http.corsdomain \"*\" --http.vhosts \"*\" --http.api \"eth,net,web3,txpool,debug\" --authrpc.port {{.Ports.BackendAuthRpc}}'",
+        "exec_command_template": "/bin/sh -c '{{.Env.BackendInstallPath}}/{{.Coin.Alias}}/geth --vanguard --syncmode 'full' --datadir {{.Env.BackendDataPath}}/{{.Coin.Alias}}/backend/geth --port {{.Ports.BackendP2P}} --ws --ws.port {{.Ports.BackendRPC}} --ws.api \"eth,net,web3,txpool,debug\" --http --http.port {{.Ports.BackendRPC}} --http.addr 127.0.0.1 --http.corsdomain \"*\" --http.vhosts \"*\" --http.api \"eth,net,web3,txpool,debug\" --authrpc.port {{.Ports.BackendAuthRpc}}'",
         "logrotate_files_template": "{{.Env.BackendDataPath}}/{{.Coin.Alias}}/backend/{{.Coin.Alias}}.log",
         "postinst_script_template": "",
         "service_type": "simple",
@@ -39,14 +39,14 @@
         "client_config_file": "",
         "platforms": {
             "arm64": {
-                "binary_url": "http://64.227.154.201:2018/vanar.zip",
+                "binary_url": "http://64.227.154.201:2018/vanar.tar.xz",
                 "verification_source": ""
             }
         }
     },
     "blockbook": {
         "package_name": "blockbook-ethereum-testnet-vanguard",
-        "system_user": "blockbook-vanar",
+        "system_user": "blockbook-ethereum",
         "internal_binding_template": ":{{.Ports.BlockbookInternal}}",
         "public_binding_template": ":{{.Ports.BlockbookPublic}}",
         "explorer_url": "",

@@ -2,11 +2,13 @@ package eth
 
 import (
 	"context"
+	"fmt"
 	"math/big"
 
 	"github.com/Cerberus-Wallet/blockbook/bchain"
 	"github.com/ethereum/go-ethereum"
 	"github.com/ethereum/go-ethereum/common"
+	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/ethclient"
 	"github.com/ethereum/go-ethereum/rpc"
@@ -15,6 +17,41 @@ import (
 // EthereumClient wraps a client to implement the EVMClient interface
 type EthereumClient struct {
 	*ethclient.Client
+}
+
+type Data struct {
+	HashRaw       string `json:"hash"`
+	NumberRaw     string `json:"number"`
+	DifficultyRaw string `json:"difficulty"`
+}
+
+func (d Data) Hash() string {
+	return d.HashRaw
+}
+
+func (d Data) Number() *big.Int {
+	num, _ := hexutil.DecodeBig(d.NumberRaw)
+	return num
+}
+
+func (d Data) Difficulty() *big.Int {
+	diff, _ := hexutil.DecodeBig(d.DifficultyRaw)
+	return diff
+}
+
+func toBlockNumArg(number *big.Int) string {
+	if number == nil {
+		return "latest"
+	}
+	if number.Sign() >= 0 {
+		return hexutil.EncodeBig(number)
+	}
+	// It's negative.
+	if number.IsInt64() {
+		return rpc.BlockNumber(number.Int64()).String()
+	}
+	// It's negative and large, which is invalid.
+	return fmt.Sprintf("<invalid %d>", number)
 }
 
 // HeaderByNumber returns a block header that implements the EVMHeader interface
@@ -26,6 +63,23 @@ func (c *EthereumClient) HeaderByNumber(ctx context.Context, number *big.Int) (b
 
 	return &EthereumHeader{Header: h}, nil
 }
+
+// HeaderByNumber returns a block header that implements the EVMHeader interface
+// func (c *EthereumClient) HeaderByNumberRpc(ctx context.Context, number *big.Int) (bchain.EVMHeader, error) {
+// 	var result json.RawMessage
+
+// 	if err := c.info.CallContext(context.Background(), &result, "eth_getBlockByNumber", hexutil.EncodeBig(number), false); err != nil {
+// 		return nil, err
+// 	}
+
+// 	var decodedData Data
+// 	err1 := json.Unmarshal([]byte(result), &decodedData)
+// 	if err1 != nil {
+// 		return nil, err1
+// 	}
+
+// 	return decodedData, nil
+// }
 
 // EstimateGas returns the current estimated gas cost for executing a transaction
 func (c *EthereumClient) EstimateGas(ctx context.Context, msg interface{}) (uint64, error) {

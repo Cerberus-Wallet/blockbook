@@ -1,0 +1,33 @@
+Apr 16 11:17:30 awais-Latitude-3520 systemd[1]: Started Blockbook daemon (Ethereum Testnet Vanguard).
+Apr 16 11:17:31 awais-Latitude-3520 blockbook[1178318]: E0416 11:17:31.097920 1178318 blockbook.go:304] resyncIndex raw [], hash-2 0x4fa9ee8ce15ed84ce3e7e8b80688c654537825af90ee061df1fa2e74a9af83cc, height 0: unexpected end of JSON input
+Apr 16 11:17:31 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Main process exited, code=exited, status=255/EXCEPTION
+Apr 16 11:17:31 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Failed with result 'exit-code'.
+Apr 16 11:17:31 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Scheduled restart job, restart counter is at 1.
+Apr 16 11:17:31 awais-Latitude-3520 systemd[1]: Stopped Blockbook daemon (Ethereum Testnet Vanguard).
+Apr 16 11:17:31 awais-Latitude-3520 systemd[1]: Started Blockbook daemon (Ethereum Testnet Vanguard).
+Apr 16 11:17:31 awais-Latitude-3520 blockbook[1178379]: E0416 11:17:31.551957 1178379 blockbook.go:304] resyncIndex raw [], hash-2 0x4fa9ee8ce15ed84ce3e7e8b80688c654537825af90ee061df1fa2e74a9af83cc, height 0: unexpected end of JSON input
+Apr 16 11:17:31 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Main process exited, code=exited, status=255/EXCEPTION
+Apr 16 11:17:31 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Failed with result 'exit-code'.
+Apr 16 11:17:31 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Scheduled restart job, restart counter is at 2.
+Apr 16 11:17:31 awais-Latitude-3520 systemd[1]: Stopped Blockbook daemon (Ethereum Testnet Vanguard).
+Apr 16 11:17:31 awais-Latitude-3520 systemd[1]: Started Blockbook daemon (Ethereum Testnet Vanguard).
+Apr 16 11:17:31 awais-Latitude-3520 blockbook[1178609]: E0416 11:17:31.900781 1178609 blockbook.go:304] resyncIndex raw [], hash-2 0x4fa9ee8ce15ed84ce3e7e8b80688c654537825af90ee061df1fa2e74a9af83cc, height 0: unexpected end of JSON input
+Apr 16 11:17:31 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Main process exited, code=exited, status=255/EXCEPTION
+Apr 16 11:17:31 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Failed with result 'exit-code'.
+Apr 16 11:17:32 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Scheduled restart job, restart counter is at 3.
+Apr 16 11:17:32 awais-Latitude-3520 systemd[1]: Stopped Blockbook daemon (Ethereum Testnet Vanguard).
+Apr 16 11:17:32 awais-Latitude-3520 systemd[1]: Started Blockbook daemon (Ethereum Testnet Vanguard).
+Apr 16 11:17:32 awais-Latitude-3520 blockbook[1178969]: E0416 11:17:32.302575 1178969 blockbook.go:304] resyncIndex raw [], hash-2 0x4fa9ee8ce15ed84ce3e7e8b80688c654537825af90ee061df1fa2e74a9af83cc, height 0: unexpected end of JSON input
+Apr 16 11:17:32 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Main process exited, code=exited, status=255/EXCEPTION
+Apr 16 11:17:32 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Failed with result 'exit-code'.
+Apr 16 11:17:32 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Scheduled restart job, restart counter is at 4.
+Apr 16 11:17:32 awais-Latitude-3520 systemd[1]: Stopped Blockbook daemon (Ethereum Testnet Vanguard).
+Apr 16 11:17:32 awais-Latitude-3520 systemd[1]: Started Blockbook daemon (Ethereum Testnet Vanguard).
+Apr 16 11:17:32 awais-Latitude-3520 blockbook[1179176]: E0416 11:17:32.793174 1179176 blockbook.go:304] resyncIndex raw [], hash-2 0x4fa9ee8ce15ed84ce3e7e8b80688c654537825af90ee061df1fa2e74a9af83cc, height 0: unexpected end of JSON input
+Apr 16 11:17:32 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Main process exited, code=exited, status=255/EXCEPTION
+Apr 16 11:17:32 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Failed with result 'exit-code'.
+Apr 16 11:17:33 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Scheduled restart job, restart counter is at 5.
+Apr 16 11:17:33 awais-Latitude-3520 systemd[1]: Stopped Blockbook daemon (Ethereum Testnet Vanguard).
+Apr 16 11:17:33 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Start request repeated too quickly.
+Apr 16 11:17:33 awais-Latitude-3520 systemd[1]: blockbook-ethereum-testnet-vanguard.service: Failed with result 'exit-code'.
+Apr 16 11:17:33 awais-Latitude-3520 systemd[1]: Failed to start Blockbook daemon (Ethereum Testnet Vanguard).
