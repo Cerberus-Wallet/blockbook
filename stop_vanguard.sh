@@ -15,4 +15,4 @@ sudo systemctl daemon-reload
 sudo apt purge backend-ethereum-testnet-vanguard -y
 # 
 # # Remove installation directory
-sudo rm -r /opt/coins
+sudo rm -r /opt/coins/nodes/ethereum_testnet_vanguard /opt/coins/data/ethereum_testnet_vanguard /opt/coins/blockbook/ethereum_testnet_vanguard

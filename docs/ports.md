@@ -71,6 +71,7 @@
 | Groestlcoin Signet               | 19147            | 19047              | 18047       | 48347                                               |
 | PIVX Testnet                     | 19149            | 19049              | 18049       | 48349                                               |
 | Koto Testnet                     | 19151            | 19051              | 18051       | 48351                                               |
+| Vanar                            | 19156            | 19056              | 18336       | 18346 http, 18646 authrpc, 30322 p2p                |
 | Decred Testnet                   | 19161            | 19061              | 18061       | 48361                                               |
 | Flo Testnet                      | 19166            | 19066              | 18066       | 48366                                               |
 | Ethereum Testnet Sepolia         | 19176            | 19076              | 18076       | 18176 http, 18576 authrpc, 48376 p2p                |

@@ -1,0 +1,434 @@
+Apr 20 10:43:09 awais-Latitude-3520 systemd[1]: Started Vanar backend daemon.
+Apr 20 10:43:09 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:09.233] Starting Geth on Vanar...
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.235] Maximum peer count                       ETH=50 LES=0 total=50
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.236] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.237] Defaulting to pebble as the backing database
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.237] Allocated cache and file handles         database=/opt/coins/data/vanar/backend/geth/geth/chaindata cache=512.00MiB handles=524,288
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.248] Opened ancient database                  database=/opt/coins/data/vanar/backend/geth/geth/chaindata/ancient/chain readonly=false
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.248] State schema set to default              scheme=hash
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.248] Freezer shutting down
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.249] Set global gas cap                       cap=12,000,000
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.250] Initializing the KZG library             backend=gokzg
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.278] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.278] Using pebble as the backing database
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.278] Allocated cache and file handles         database=/opt/coins/data/vanar/backend/geth/geth/chaindata cache=512.00MiB handles=524,288
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.285] Opened ancient database                  database=/opt/coins/data/vanar/backend/geth/geth/chaindata/ancient/chain readonly=false
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.285] Initialising Ethereum protocol           network=2040 dbversion=<nil>
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.286] Writing custom genesis block
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.287] Persisted trie from memory database      nodes=15 size=2.24KiB time="584.888µs" gcnodes=0 gcsize=0.00B gctime=0s livenodes=0 livesize=0.00B
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293] Chain ID:  2040 (vanar)
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293] Consensus: Clique (proof-of-authority)
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293] Pre-Merge hard forks (block based):
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]  - Lahore:                      #0        (Lahore Fork Implementing)
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]  - Karachi:                      #0        (Karachi Fork Implementing)
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]  - London:                      #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293] The Merge is not yet available for this network!
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293] Post-Merge hard forks (timestamp based):
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293]
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.293] Loaded most recent local block           number=0 hash=f1fff4..778f2b td=1 age=55y1mo3d
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: WARN [04-20|10:43:10.293] Failed to load snapshot                  err="missing or corrupted snapshot"
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.294] Rebuilding state snapshot
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.295] Resuming state snapshot generation       root=966101..5ef033 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="658.162µs"
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.295] Initialized transaction indexer          limit=2,350,000
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.295] Regenerated local transaction journal    transactions=0 accounts=0
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.296] Generated state snapshot                 accounts=11 slots=0 storage=560.00B dangling=0 elapsed=1.418ms
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.307] Stored checkpoint snapshot to disk       number=0 hash=f1fff4..778f2b
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.307] Gasprice oracle is ignoring threshold set threshold=2
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: WARN [04-20|10:43:10.308] Engine API enabled                       protocol=eth
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: WARN [04-20|10:43:10.308] Engine API started but chain not configured for merge yet
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.308] Starting peer-to-peer node               instance=Geth/v1.13.2-stable-3298c761/linux-amd64/go1.21.4
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.335] New local node record                    seq=1,713,591,790,334 id=a696ef8346632f4d ip=127.0.0.1 udp=30322 tcp=30322
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.335] Started P2P networking                   self=enode://581b58f08285cbd89ea3868145a6940c66e263df2e4cebfe2a88eee8825d611e0d41118e6ba1ede314de5d15f57f8f8753969baa53672451d4c5ab25a78c0b17@127.0.0.1:30322
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.336] IPC endpoint opened                      url=/opt/coins/data/vanar/backend/geth/geth.ipc
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.337] Generated JWT secret                     path=/opt/coins/data/vanar/backend/geth/geth/jwtsecret
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.337] WebSocket enabled                        url=ws://127.0.0.1:18336
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.337] HTTP server started                      endpoint=127.0.0.1:18336 auth=false prefix= cors=* vhosts=*
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.337] WebSocket enabled                        url=ws://127.0.0.1:18646
+Apr 20 10:43:10 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:10.337] HTTP server started                      endpoint=127.0.0.1:18646 auth=true  prefix= cors=localhost vhosts=localhost
+Apr 20 10:43:13 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:13.085] NAT mapped port                          proto=TCP extport=30322 intport=30322 interface="UPNP IGDv1-IP1"
+Apr 20 10:43:13 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:13.340] New local node record                    seq=1,713,591,790,335 id=a696ef8346632f4d ip=<nil>     udp=30322 tcp=30322
+Apr 20 10:43:13 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:13.680] NAT mapped port                          proto=UDP extport=30322 intport=30322 interface="UPNP IGDv1-IP1"
+Apr 20 10:43:20 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:20.336] Looking for peers                        peercount=0 tried=1 static=0
+Apr 20 10:43:50 awais-Latitude-3520 sh[840899]: INFO [04-20|10:43:50.336] Looking for peers                        peercount=0 tried=1 static=0
+Apr 20 11:05:58 awais-Latitude-3520 sh[840899]: INFO [04-20|11:05:58.551] Looking for peers                        peercount=0 tried=0 static=0
+Apr 20 11:06:01 awais-Latitude-3520 sh[840899]: INFO [04-20|11:06:01.736] Block synchronisation started
+Apr 20 11:06:08 awais-Latitude-3520 sh[840899]: INFO [04-20|11:06:08.511] Imported new chain segment               number=768 hash=40ed81..122f0d blocks=768 txs=0 mgas=0.000 elapsed=942.372ms   mgasps=0.000 age=2w5d5h   snapdiffs=59.09KiB triedirty=110.50KiB
+Apr 20 11:06:13 awais-Latitude-3520 sh[840899]: INFO [04-20|11:06:13.242] Imported new chain segment               number=2816 hash=5b6329..a0505a blocks=2048 txs=0 mgas=0.000 elapsed=4.724s      mgasps=0.000 age=2w5d3h   snapdiffs=217.09KiB triedirty=110.50KiB
+Apr 20 11:06:21 awais-Latitude-3520 sh[840899]: INFO [04-20|11:06:21.261] Imported new chain segment               number=3876 hash=0c080a..18c84a blocks=1060 txs=0 mgas=0.000 elapsed=8.007s      mgasps=0.000 age=2w5d2h   snapdiffs=298.87KiB triedirty=110.50KiB
+Apr 20 11:06:28 awais-Latitude-3520 sh[840899]: INFO [04-20|11:06:28.812] Imported new chain segment               number=4864 hash=a6744e..779d6d blocks=988  txs=0 mgas=0.000 elapsed=7.551s      mgasps=0.000 age=2w5d2h   snapdiffs=375.09KiB triedirty=110.50KiB
+Apr 20 11:06:36 awais-Latitude-3520 sh[840899]: INFO [04-20|11:06:36.824] Imported new chain segment               number=5920 hash=744f34..175a27 blocks=1056 txs=0 mgas=0.000 elapsed=8.005s      mgasps=0.000 age=2w5d1h   snapdiffs=456.56KiB triedirty=110.50KiB
+Apr 20 11:06:44 awais-Latitude-3520 sh[840899]: INFO [04-20|11:06:44.388] Imported new chain segment               number=6912 hash=935260..7bdbc3 blocks=992  txs=0 mgas=0.000 elapsed=7.563s      mgasps=0.000 age=2w5d21m  snapdiffs=533.09KiB triedirty=110.50KiB
+Apr 20 11:06:52 awais-Latitude-3520 sh[840899]: INFO [04-20|11:06:52.400] Imported new chain segment               number=7957 hash=d46f64..02b0d3 blocks=1045 txs=0 mgas=0.000 elapsed=8.005s      mgasps=0.000 age=2w4d23h  snapdiffs=613.71KiB triedirty=110.50KiB
+Apr 20 11:07:00 awais-Latitude-3520 sh[840899]: INFO [04-20|11:07:00.026] Imported new chain segment               number=8960 hash=10e09f..78e4eb blocks=1003 txs=0 mgas=0.000 elapsed=7.625s      mgasps=0.000 age=2w4d22h  snapdiffs=691.09KiB triedirty=110.50KiB
+Apr 20 11:07:08 awais-Latitude-3520 sh[840899]: INFO [04-20|11:07:08.039] Imported new chain segment               number=10008 hash=f5e522..f6d030 blocks=1048 txs=0 mgas=0.000 elapsed=8.004s      mgasps=0.000 age=2w4d21h  snapdiffs=771.95KiB triedirty=110.50KiB
+Apr 20 11:07:15 awais-Latitude-3520 sh[840899]: INFO [04-20|11:07:15.703] Imported new chain segment               number=11008 hash=cfb025..05a78c blocks=1000 txs=0 mgas=0.000 elapsed=7.663s      mgasps=0.000 age=2w4d20h  snapdiffs=849.09KiB triedirty=110.50KiB
+Apr 20 11:07:23 awais-Latitude-3520 sh[840899]: INFO [04-20|11:07:23.717] Imported new chain segment               number=12067 hash=73bd4f..aec924 blocks=1059 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w4d20h  snapdiffs=930.79KiB triedirty=110.50KiB
+Apr 20 11:07:31 awais-Latitude-3520 sh[840899]: INFO [04-20|11:07:31.254] Imported new chain segment               number=13056 hash=a205ca..2ec94e blocks=989  txs=0 mgas=0.000 elapsed=7.536s      mgasps=0.000 age=2w4d19h  snapdiffs=1007.09KiB triedirty=110.50KiB
+Apr 20 11:07:39 awais-Latitude-3520 sh[840899]: INFO [04-20|11:07:39.270] Imported new chain segment               number=14104 hash=6d9247..83c032 blocks=1048 txs=0 mgas=0.000 elapsed=8.006s      mgasps=0.000 age=2w4d18h  snapdiffs=1.06MiB    triedirty=110.50KiB
+Apr 20 11:07:46 awais-Latitude-3520 sh[840899]: INFO [04-20|11:07:46.979] Imported new chain segment               number=15104 hash=320655..869fa2 blocks=1000 txs=0 mgas=0.000 elapsed=7.709s      mgasps=0.000 age=2w4d17h  snapdiffs=1.14MiB    triedirty=110.50KiB
+Apr 20 11:07:54 awais-Latitude-3520 sh[840899]: INFO [04-20|11:07:54.993] Imported new chain segment               number=16148 hash=e5d818..45935e blocks=1044 txs=0 mgas=0.000 elapsed=8.007s      mgasps=0.000 age=2w4d16h  snapdiffs=1.22MiB    triedirty=110.50KiB
+Apr 20 11:08:02 awais-Latitude-3520 sh[840899]: INFO [04-20|11:08:02.653] Imported new chain segment               number=17152 hash=071c93..5cb986 blocks=1004 txs=0 mgas=0.000 elapsed=7.659s      mgasps=0.000 age=2w4d15h  snapdiffs=1.29MiB    triedirty=110.50KiB
+Apr 20 11:08:10 awais-Latitude-3520 sh[840899]: INFO [04-20|11:08:10.660] Imported new chain segment               number=18198 hash=ed7127..8d84a6 blocks=1046 txs=0 mgas=0.000 elapsed=8.000s      mgasps=0.000 age=2w4d14h  snapdiffs=1.37MiB    triedirty=110.50KiB
+Apr 20 11:08:18 awais-Latitude-3520 sh[840899]: INFO [04-20|11:08:18.270] Imported new chain segment               number=19200 hash=357fbf..dbceaa blocks=1002 txs=0 mgas=0.000 elapsed=7.610s      mgasps=0.000 age=2w4d14h  snapdiffs=1.45MiB    triedirty=110.50KiB
+Apr 20 11:08:26 awais-Latitude-3520 sh[840899]: INFO [04-20|11:08:26.278] Imported new chain segment               number=20245 hash=67a806..c7017b blocks=1045 txs=0 mgas=0.000 elapsed=8.001s      mgasps=0.000 age=2w4d13h  snapdiffs=1.53MiB    triedirty=110.50KiB
+Apr 20 11:08:33 awais-Latitude-3520 sh[840899]: INFO [04-20|11:08:33.888] Imported new chain segment               number=21248 hash=e0d44b..3f1c3b blocks=1003 txs=0 mgas=0.000 elapsed=7.609s      mgasps=0.000 age=2w4d12h  snapdiffs=1.60MiB    triedirty=110.62KiB
+Apr 20 11:08:41 awais-Latitude-3520 sh[840899]: INFO [04-20|11:08:41.900] Imported new chain segment               number=22253 hash=0095a9..f2c698 blocks=1005 txs=0 mgas=0.000 elapsed=8.006s      mgasps=0.000 age=2w4d11h  snapdiffs=1.68MiB    triedirty=110.62KiB
+Apr 20 11:08:49 awais-Latitude-3520 sh[840899]: INFO [04-20|11:08:49.904] Imported new chain segment               number=23287 hash=1b9f70..761f9e blocks=1034 txs=0 mgas=0.000 elapsed=8.003s      mgasps=0.000 age=2w4d10h  snapdiffs=1.76MiB    triedirty=110.62KiB
+Apr 20 11:08:49 awais-Latitude-3520 sh[840899]: INFO [04-20|11:08:49.969] Imported new chain segment               number=23296 hash=cc6246..9a93bb blocks=9    txs=0 mgas=0.000 elapsed=65.454ms    mgasps=0.000 age=2w4d10h  snapdiffs=1.76MiB    triedirty=110.62KiB
+Apr 20 11:08:57 awais-Latitude-3520 sh[840899]: INFO [04-20|11:08:57.981] Imported new chain segment               number=24336 hash=2f485d..fd40c5 blocks=1040 txs=0 mgas=0.000 elapsed=8.005s      mgasps=0.000 age=2w4d9h   snapdiffs=1.84MiB    triedirty=110.62KiB
+Apr 20 11:09:05 awais-Latitude-3520 sh[840899]: INFO [04-20|11:09:05.644] Imported new chain segment               number=25344 hash=c2497b..b22030 blocks=1008 txs=0 mgas=0.000 elapsed=7.663s      mgasps=0.000 age=2w4d9h   snapdiffs=1.91MiB    triedirty=110.62KiB
+Apr 20 11:09:13 awais-Latitude-3520 sh[840899]: INFO [04-20|11:09:13.662] Imported new chain segment               number=26397 hash=b1021a..636d6c blocks=1053 txs=0 mgas=0.000 elapsed=8.006s      mgasps=0.000 age=2w4d8h   snapdiffs=1.99MiB    triedirty=110.62KiB
+Apr 20 11:09:21 awais-Latitude-3520 sh[840899]: INFO [04-20|11:09:21.204] Imported new chain segment               number=27392 hash=40c9c1..15ad08 blocks=995  txs=0 mgas=0.000 elapsed=7.541s      mgasps=0.000 age=2w4d7h   snapdiffs=2.07MiB    triedirty=110.62KiB
+Apr 20 11:09:29 awais-Latitude-3520 sh[840899]: INFO [04-20|11:09:29.211] Imported new chain segment               number=28444 hash=2073c5..7cdc68 blocks=1052 txs=0 mgas=0.000 elapsed=8.000s      mgasps=0.000 age=2w4d6h   snapdiffs=2.15MiB    triedirty=110.62KiB
+Apr 20 11:09:37 awais-Latitude-3520 sh[840899]: INFO [04-20|11:09:37.048] Imported new chain segment               number=29440 hash=a8eefc..144287 blocks=996  txs=0 mgas=0.000 elapsed=7.836s      mgasps=0.000 age=2w4d5h   snapdiffs=2.23MiB    triedirty=110.62KiB
+Apr 20 11:09:45 awais-Latitude-3520 sh[840899]: INFO [04-20|11:09:45.069] Imported new chain segment               number=30436 hash=41bbd3..0e130d blocks=996  txs=0 mgas=0.000 elapsed=8.005s      mgasps=0.000 age=2w4d4h   snapdiffs=2.30MiB    triedirty=110.62KiB
+Apr 20 11:09:53 awais-Latitude-3520 sh[840899]: INFO [04-20|11:09:53.071] Imported new chain segment               number=31475 hash=7528f3..7669d2 blocks=1039 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w4d3h   snapdiffs=2.38MiB    triedirty=110.62KiB
+Apr 20 11:09:53 awais-Latitude-3520 sh[840899]: INFO [04-20|11:09:53.184] Imported new chain segment               number=31488 hash=f482f8..a964fd blocks=13   txs=0 mgas=0.000 elapsed=112.742ms   mgasps=0.000 age=2w4d3h   snapdiffs=2.38MiB    triedirty=110.62KiB
+Apr 20 11:10:01 awais-Latitude-3520 sh[840899]: INFO [04-20|11:10:01.193] Imported new chain segment               number=32542 hash=27d305..5594a6 blocks=1054 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w4d3h   snapdiffs=2.46MiB    triedirty=110.62KiB
+Apr 20 11:10:08 awais-Latitude-3520 sh[840899]: INFO [04-20|11:10:08.793] Imported new chain segment               number=33536 hash=34b2b3..13a4b0 blocks=994  txs=0 mgas=0.000 elapsed=7.600s      mgasps=0.000 age=2w4d2h   snapdiffs=2.54MiB    triedirty=110.62KiB
+Apr 20 11:10:16 awais-Latitude-3520 sh[840899]: INFO [04-20|11:10:16.808] Imported new chain segment               number=34586 hash=2d5f0e..5f39fb blocks=1050 txs=0 mgas=0.000 elapsed=8.007s      mgasps=0.000 age=2w4d1h   snapdiffs=2.62MiB    triedirty=110.62KiB
+Apr 20 11:10:24 awais-Latitude-3520 sh[840899]: INFO [04-20|11:10:24.813] Imported new chain segment               number=35584 hash=013013..50416f blocks=998  txs=0 mgas=0.000 elapsed=8.005s      mgasps=0.000 age=2w4d31m  snapdiffs=2.69MiB    triedirty=110.62KiB
+Apr 20 11:10:32 awais-Latitude-3520 sh[840899]: INFO [04-20|11:10:32.826] Imported new chain segment               number=36569 hash=f421cd..aaa0d5 blocks=985  txs=0 mgas=0.000 elapsed=8.006s      mgasps=0.000 age=2w3d23h  snapdiffs=2.77MiB    triedirty=110.62KiB
+Apr 20 11:10:40 awais-Latitude-3520 sh[840899]: INFO [04-20|11:10:40.833] Imported new chain segment               number=37570 hash=010e54..0dc6aa blocks=1001 txs=0 mgas=0.000 elapsed=8.007s      mgasps=0.000 age=2w3d22h  snapdiffs=2.85MiB    triedirty=110.62KiB
+Apr 20 11:10:41 awais-Latitude-3520 sh[840899]: INFO [04-20|11:10:41.294] Imported new chain segment               number=37632 hash=d5e894..0434dd blocks=62   txs=0 mgas=0.000 elapsed=461.200ms   mgasps=0.000 age=2w3d22h  snapdiffs=2.85MiB    triedirty=110.62KiB
+Apr 20 11:10:49 awais-Latitude-3520 sh[840899]: INFO [04-20|11:10:49.306] Imported new chain segment               number=38621 hash=3dbfe3..5ea9f3 blocks=989  txs=0 mgas=0.000 elapsed=8.005s      mgasps=0.000 age=2w3d21h  snapdiffs=2.93MiB    triedirty=110.62KiB
+Apr 20 11:10:57 awais-Latitude-3520 sh[840899]: INFO [04-20|11:10:57.311] Imported new chain segment               number=39664 hash=04488c..2867ef blocks=1043 txs=0 mgas=0.000 elapsed=8.005s      mgasps=0.000 age=2w3d21h  snapdiffs=3.01MiB    triedirty=110.62KiB
+Apr 20 11:10:57 awais-Latitude-3520 sh[840899]: INFO [04-20|11:10:57.433] Imported new chain segment               number=39680 hash=d48646..f10c85 blocks=16   txs=0 mgas=0.000 elapsed=121.421ms   mgasps=0.000 age=2w3d21h  snapdiffs=3.01MiB    triedirty=110.62KiB
+Apr 20 11:11:05 awais-Latitude-3520 sh[840899]: INFO [04-20|11:11:05.446] Imported new chain segment               number=40749 hash=b604ba..50dffa blocks=1069 txs=0 mgas=0.000 elapsed=8.007s      mgasps=0.000 age=2w3d20h  snapdiffs=3.09MiB    triedirty=110.62KiB
+Apr 20 11:11:12 awais-Latitude-3520 sh[840899]: INFO [04-20|11:11:12.827] Imported new chain segment               number=41728 hash=94f721..66776d blocks=979  txs=0 mgas=0.000 elapsed=7.380s      mgasps=0.000 age=2w3d19h  snapdiffs=3.16MiB    triedirty=110.62KiB
+Apr 20 11:11:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:11:20.842] Imported new chain segment               number=42733 hash=20d6d3..2a1f94 blocks=1005 txs=0 mgas=0.000 elapsed=8.001s      mgasps=0.000 age=2w3d18h  snapdiffs=3.24MiB    triedirty=110.62KiB
+Apr 20 11:11:28 awais-Latitude-3520 sh[840899]: INFO [04-20|11:11:28.621] Imported new chain segment               number=43776 hash=df9069..fce894 blocks=1043 txs=0 mgas=0.000 elapsed=7.779s      mgasps=0.000 age=2w3d17h  snapdiffs=3.32MiB    triedirty=110.62KiB
+Apr 20 11:11:36 awais-Latitude-3520 sh[840899]: INFO [04-20|11:11:36.629] Imported new chain segment               number=44788 hash=d8462b..aa7243 blocks=1012 txs=0 mgas=0.000 elapsed=8.000s      mgasps=0.000 age=2w3d16h  snapdiffs=3.40MiB    triedirty=110.62KiB
+Apr 20 11:11:44 awais-Latitude-3520 sh[840899]: INFO [04-20|11:11:44.632] Imported new chain segment               number=45810 hash=e396a9..6a4a48 blocks=1022 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w3d16h  snapdiffs=3.47MiB    triedirty=110.62KiB
+Apr 20 11:11:44 awais-Latitude-3520 sh[840899]: INFO [04-20|11:11:44.731] Imported new chain segment               number=45824 hash=f59eca..fa0f56 blocks=14   txs=0 mgas=0.000 elapsed=99.203ms    mgasps=0.000 age=2w3d16h  snapdiffs=3.48MiB    triedirty=110.62KiB
+Apr 20 11:11:52 awais-Latitude-3520 sh[840899]: INFO [04-20|11:11:52.746] Imported new chain segment               number=46826 hash=128dd9..259ba6 blocks=1002 txs=0 mgas=0.000 elapsed=8.003s      mgasps=0.000 age=2w3d15h  snapdiffs=3.55MiB    triedirty=110.62KiB
+Apr 20 11:12:00 awais-Latitude-3520 sh[840899]: INFO [04-20|11:12:00.611] Imported new chain segment               number=47872 hash=326ebc..5638a7 blocks=1046 txs=0 mgas=0.000 elapsed=7.864s      mgasps=0.000 age=2w3d14h  snapdiffs=3.63MiB    triedirty=110.62KiB
+Apr 20 11:12:08 awais-Latitude-3520 sh[840899]: INFO [04-20|11:12:08.623] Imported new chain segment               number=48936 hash=442555..94ee29 blocks=1064 txs=0 mgas=0.000 elapsed=8.000s      mgasps=0.000 age=2w3d13h  snapdiffs=3.71MiB    triedirty=110.62KiB
+Apr 20 11:12:15 awais-Latitude-3520 sh[840899]: INFO [04-20|11:12:15.923] Imported new chain segment               number=49920 hash=9d5d1c..abacb6 blocks=984  txs=0 mgas=0.000 elapsed=7.300s      mgasps=0.000 age=2w3d12h  snapdiffs=3.79MiB    triedirty=110.62KiB
+Apr 20 11:12:23 awais-Latitude-3520 sh[840899]: INFO [04-20|11:12:23.938] Imported new chain segment               number=50981 hash=a5ac7a..f9829d blocks=1061 txs=0 mgas=0.000 elapsed=8.007s      mgasps=0.000 age=2w3d11h  snapdiffs=3.87MiB    triedirty=110.62KiB
+Apr 20 11:12:31 awais-Latitude-3520 sh[840899]: INFO [04-20|11:12:31.262] Imported new chain segment               number=51968 hash=0a7895..e6b3e5 blocks=987  txs=0 mgas=0.000 elapsed=7.324s      mgasps=0.000 age=2w3d10h  snapdiffs=3.94MiB    triedirty=110.62KiB
+Apr 20 11:12:39 awais-Latitude-3520 sh[840899]: INFO [04-20|11:12:39.276] Imported new chain segment               number=53026 hash=dd359b..b65fb7 blocks=1058 txs=0 mgas=0.000 elapsed=8.007s      mgasps=0.000 age=2w3d10h  snapdiffs=26.09KiB   triedirty=110.62KiB
+Apr 20 11:12:46 awais-Latitude-3520 sh[840899]: INFO [04-20|11:12:46.778] Imported new chain segment               number=54016 hash=a2a61c..f73bd7 blocks=990  txs=0 mgas=0.000 elapsed=7.501s      mgasps=0.000 age=2w3d9h   snapdiffs=103.44KiB  triedirty=110.62KiB
+Apr 20 11:12:54 awais-Latitude-3520 sh[840899]: INFO [04-20|11:12:54.794] Imported new chain segment               number=55073 hash=e91645..561c92 blocks=1057 txs=0 mgas=0.000 elapsed=8.006s      mgasps=0.000 age=2w3d8h   snapdiffs=186.02KiB  triedirty=110.62KiB
+Apr 20 11:13:02 awais-Latitude-3520 sh[840899]: INFO [04-20|11:13:02.234] Imported new chain segment               number=56064 hash=a91eb7..a1702f blocks=991  txs=0 mgas=0.000 elapsed=7.439s      mgasps=0.000 age=2w3d7h   snapdiffs=263.44KiB  triedirty=110.62KiB
+Apr 20 11:13:10 awais-Latitude-3520 sh[840899]: INFO [04-20|11:13:10.245] Imported new chain segment               number=57143 hash=166ecb..b9a0a5 blocks=1079 txs=0 mgas=0.000 elapsed=8.004s      mgasps=0.000 age=2w3d6h   snapdiffs=347.73KiB  triedirty=110.62KiB
+Apr 20 11:13:17 awais-Latitude-3520 sh[840899]: INFO [04-20|11:13:17.488] Imported new chain segment               number=58112 hash=cb8fb6..b9851f blocks=969  txs=0 mgas=0.000 elapsed=7.242s      mgasps=0.000 age=2w3d5h   snapdiffs=423.44KiB  triedirty=110.62KiB
+Apr 20 11:13:25 awais-Latitude-3520 sh[840899]: INFO [04-20|11:13:25.501] Imported new chain segment               number=59179 hash=c5c9e6..ee66dc blocks=1067 txs=0 mgas=0.000 elapsed=8.006s      mgasps=0.000 age=2w3d4h   snapdiffs=506.80KiB  triedirty=110.62KiB
+Apr 20 11:13:32 awais-Latitude-3520 sh[840899]: INFO [04-20|11:13:32.835] Imported new chain segment               number=60160 hash=421713..a3380b blocks=981  txs=0 mgas=0.000 elapsed=7.334s      mgasps=0.000 age=2w3d4h   snapdiffs=583.44KiB  triedirty=110.62KiB
+Apr 20 11:13:40 awais-Latitude-3520 sh[840899]: INFO [04-20|11:13:40.844] Imported new chain segment               number=61236 hash=8fa00b..570f2c blocks=1076 txs=0 mgas=0.000 elapsed=8.001s      mgasps=0.000 age=2w3d3h   snapdiffs=667.50KiB  triedirty=110.62KiB
+Apr 20 11:13:48 awais-Latitude-3520 sh[840899]: INFO [04-20|11:13:48.453] Imported new chain segment               number=62208 hash=ffec80..428d61 blocks=972  txs=0 mgas=0.000 elapsed=7.609s      mgasps=0.000 age=2w3d2h   snapdiffs=743.44KiB  triedirty=110.62KiB
+Apr 20 11:13:56 awais-Latitude-3520 sh[840899]: INFO [04-20|11:13:56.461] Imported new chain segment               number=63254 hash=73dfd9..5a6809 blocks=1046 txs=0 mgas=0.000 elapsed=8.001s      mgasps=0.000 age=2w3d1h   snapdiffs=825.16KiB  triedirty=110.62KiB
+Apr 20 11:14:04 awais-Latitude-3520 sh[840899]: INFO [04-20|11:14:04.001] Imported new chain segment               number=64256 hash=16ea24..ba4378 blocks=1002 txs=0 mgas=0.000 elapsed=7.540s      mgasps=0.000 age=2w3d41m  snapdiffs=903.44KiB  triedirty=110.62KiB
+Apr 20 11:14:12 awais-Latitude-3520 sh[840899]: INFO [04-20|11:14:12.009] Imported new chain segment               number=65311 hash=4534dd..0d88df blocks=1055 txs=0 mgas=0.000 elapsed=8.001s      mgasps=0.000 age=2w2d23h  snapdiffs=985.86KiB  triedirty=110.62KiB
+Apr 20 11:14:19 awais-Latitude-3520 sh[840899]: INFO [04-20|11:14:19.495] Imported new chain segment               number=66304 hash=25e159..d0bf98 blocks=993  txs=0 mgas=0.000 elapsed=7.486s      mgasps=0.000 age=2w2d22h  snapdiffs=1.04MiB    triedirty=110.62KiB
+Apr 20 11:14:27 awais-Latitude-3520 sh[840899]: INFO [04-20|11:14:27.508] Imported new chain segment               number=67358 hash=292d17..09e031 blocks=1054 txs=0 mgas=0.000 elapsed=8.005s      mgasps=0.000 age=2w2d22h  snapdiffs=1.12MiB    triedirty=110.62KiB
+Apr 20 11:14:34 awais-Latitude-3520 sh[840899]: INFO [04-20|11:14:34.925] Imported new chain segment               number=68352 hash=d9ab8b..d39f1a blocks=994  txs=0 mgas=0.000 elapsed=7.417s      mgasps=0.000 age=2w2d21h  snapdiffs=1.19MiB    triedirty=110.62KiB
+Apr 20 11:14:42 awais-Latitude-3520 sh[840899]: INFO [04-20|11:14:42.938] Imported new chain segment               number=69423 hash=ce5129..58645b blocks=1071 txs=0 mgas=0.000 elapsed=8.006s      mgasps=0.000 age=2w2d20h  snapdiffs=1.28MiB    triedirty=110.62KiB
+Apr 20 11:14:50 awais-Latitude-3520 sh[840899]: INFO [04-20|11:14:50.429] Imported new chain segment               number=70400 hash=7ad9ec..0bea6f blocks=977  txs=0 mgas=0.000 elapsed=7.491s      mgasps=0.000 age=2w2d19h  snapdiffs=1.35MiB    triedirty=110.62KiB
+Apr 20 11:14:58 awais-Latitude-3520 sh[840899]: INFO [04-20|11:14:58.444] Imported new chain segment               number=71457 hash=44ffab..1ac9e6 blocks=1057 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w2d18h  snapdiffs=1.43MiB    triedirty=110.62KiB
+Apr 20 11:15:05 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:05.844] Imported new chain segment               number=72448 hash=11a17f..d06c32 blocks=991  txs=0 mgas=0.000 elapsed=7.399s      mgasps=0.000 age=2w2d17h  snapdiffs=1.51MiB    triedirty=110.62KiB
+Apr 20 11:15:13 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:13.857] Imported new chain segment               number=73504 hash=8c21a8..2643ce blocks=1056 txs=0 mgas=0.000 elapsed=8.006s      mgasps=0.000 age=2w2d17h  snapdiffs=1.59MiB    triedirty=110.62KiB
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.528] Got interrupt, shutting down...
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.528] HTTP server stopped                      endpoint=127.0.0.1:18336
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.528] HTTP server stopped                      endpoint=127.0.0.1:18646
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.528] IPC endpoint closed                      url=/opt/coins/data/vanar/backend/geth/geth.ipc
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: WARN [04-20|11:15:20.528] Already shutting down, interrupt more to panic. times=9
+Apr 20 11:15:20 awais-Latitude-3520 systemd[1]: Stopping Vanar backend daemon...
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: WARN [04-20|11:15:20.532] Synchronisation failed, retrying         err="content processing canceled (requested)"
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.532] Ethereum protocol stopped
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.585] Transaction pool stopped
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.594] Writing cached state to disk             block=74369 hash=a12381..c7c5d4 root=aa643c..0edcf7
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.598] Persisted trie from memory database      nodes=3  size=573.00B time=3.76369ms   gcnodes=222,723 gcsize=40.55MiB gctime=312.297514ms livenodes=381 livesize=71.07KiB
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.598] Writing cached state to disk             block=74368 hash=563d37..95abff root=2234d7..e8353a
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.602] Persisted trie from memory database      nodes=3  size=573.00B time=3.760511ms  gcnodes=0       gcsize=0.00B    gctime=0s           livenodes=378 livesize=70.51KiB
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.602] Writing cached state to disk             block=74242 hash=d272f2..7247db root=d16abc..8aad44
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.606] Persisted trie from memory database      nodes=3  size=573.00B time=3.759949ms  gcnodes=0       gcsize=0.00B    gctime=0s           livenodes=375 livesize=69.95KiB
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.606] Writing snapshot state to disk           root=e29b7a..683963
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.606] Persisted trie from memory database      nodes=0  size=0.00B   time="2.768µs"   gcnodes=0       gcsize=0.00B    gctime=0s           livenodes=375 livesize=69.95KiB
+Apr 20 11:15:20 awais-Latitude-3520 sh[840899]: INFO [04-20|11:15:20.606] Blockchain stopped
+Apr 20 11:15:21 awais-Latitude-3520 systemd[1]: backend-vanar.service: Deactivated successfully.
+Apr 20 11:15:21 awais-Latitude-3520 systemd[1]: Stopped Vanar backend daemon.
+Apr 20 11:15:21 awais-Latitude-3520 systemd[1]: backend-vanar.service: Consumed 1min 32.737s CPU time.
+Apr 20 11:21:48 awais-Latitude-3520 systemd[1]: Started Vanar backend daemon.
+Apr 20 11:21:48 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:48.309] Starting Geth on Vanar...
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.417] Maximum peer count                       ETH=50 LES=0 total=50
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.419] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.421] Defaulting to pebble as the backing database
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.421] Allocated cache and file handles         database=/opt/coins/data/vanar/backend/geth/geth/chaindata cache=512.00MiB handles=524,288
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.485] Opened ancient database                  database=/opt/coins/data/vanar/backend/geth/geth/chaindata/ancient/chain readonly=false
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.485] State schema set to default              scheme=hash
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.485] Freezer shutting down
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.490] Set global gas cap                       cap=12,000,000
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.490] Initializing the KZG library             backend=gokzg
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.524] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.525] Using pebble as the backing database
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.525] Allocated cache and file handles         database=/opt/coins/data/vanar/backend/geth/geth/chaindata cache=512.00MiB handles=524,288
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.582] Opened ancient database                  database=/opt/coins/data/vanar/backend/geth/geth/chaindata/ancient/chain readonly=false
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.583] Initialising Ethereum protocol           network=2040 dbversion=<nil>
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.587] Writing custom genesis block
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.595] Persisted trie from memory database      nodes=15 size=2.24KiB time=3.686536ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=0 livesize=0.00B
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635] Chain ID:  2040 (vanar)
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635] Consensus: Clique (proof-of-authority)
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635] Pre-Merge hard forks (block based):
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]  - Lahore:                      #0        (Lahore Fork Implementing)
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]  - Karachi:                      #0        (Karachi Fork Implementing)
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]  - London:                      #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635] The Merge is not yet available for this network!
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635] Post-Merge hard forks (timestamp based):
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635]
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.635] Loaded most recent local block           number=0 hash=f1fff4..778f2b td=1 age=55y1mo3d
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: WARN [04-20|11:21:49.635] Failed to load snapshot                  err="missing or corrupted snapshot"
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.642] Rebuilding state snapshot
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.646] Resuming state snapshot generation       root=966101..5ef033 accounts=0 slots=0 storage=0.00B dangling=0 elapsed=3.764ms
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.646] Regenerated local transaction journal    transactions=0 accounts=0
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.646] Initialized transaction indexer          limit=2,350,000
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.650] Generated state snapshot                 accounts=11 slots=0 storage=560.00B dangling=0 elapsed=7.622ms
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.655] Gasprice oracle is ignoring threshold set threshold=2
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: WARN [04-20|11:21:49.776] Engine API enabled                       protocol=eth
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: WARN [04-20|11:21:49.776] Engine API started but chain not configured for merge yet
+Apr 20 11:21:49 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:49.776] Starting peer-to-peer node               instance=Geth/v1.13.2-stable-3298c761/linux-amd64/go1.21.4
+Apr 20 11:21:50 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:50.124] Stored checkpoint snapshot to disk       number=0 hash=f1fff4..778f2b
+Apr 20 11:21:50 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:50.164] New local node record                    seq=1,713,594,110,164 id=3a226e650e3410e6 ip=127.0.0.1 udp=30322 tcp=30322
+Apr 20 11:21:50 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:50.165] Started P2P networking                   self=enode://0b993ba6388d46a9a3237b268558ac0df76e2c54cc0a298c4c038be3aaa982721b0ca20ea511e07d0f8e73d596dcb19252a6957c08fc950f6e77c22778875d58@127.0.0.1:30322
+Apr 20 11:21:50 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:50.165] IPC endpoint opened                      url=/opt/coins/data/vanar/backend/geth/geth.ipc
+Apr 20 11:21:50 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:50.166] Generated JWT secret                     path=/opt/coins/data/vanar/backend/geth/geth/jwtsecret
+Apr 20 11:21:50 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:50.166] WebSocket enabled                        url=ws://127.0.0.1:18336
+Apr 20 11:21:50 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:50.166] HTTP server started                      endpoint=127.0.0.1:18336 auth=false prefix= cors=* vhosts=*
+Apr 20 11:21:50 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:50.166] WebSocket enabled                        url=ws://127.0.0.1:18646
+Apr 20 11:21:50 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:50.166] HTTP server started                      endpoint=127.0.0.1:18646 auth=true  prefix= cors=localhost vhosts=localhost
+Apr 20 11:21:52 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:52.838] NAT mapped port                          proto=TCP extport=30322 intport=30322 interface="UPNP IGDv1-IP1"
+Apr 20 11:21:53 awais-Latitude-3520 sh[918227]: INFO [04-20|11:21:53.278] NAT mapped port                          proto=UDP extport=30322 intport=30322 interface="UPNP IGDv1-IP1"
+Apr 20 11:22:00 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:00.165] Looking for peers                        peercount=0 tried=1 static=0
+Apr 20 11:22:07 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:07.358] Block synchronisation started
+Apr 20 11:22:11 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:11.672] Looking for peers                        peercount=1 tried=3 static=0
+Apr 20 11:22:18 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:18.120] Imported new chain segment               number=576 hash=4123b0..0d39aa blocks=576 txs=0 mgas=0.000 elapsed=4.506s  mgasps=0.000 age=2w5d5h   snapdiffs=44.28KiB triedirty=110.50KiB
+Apr 20 11:22:26 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:26.134] Imported new chain segment               number=2044 hash=bf7993..02b4ac blocks=1468 txs=0 mgas=0.000 elapsed=8.007s  mgasps=0.000 age=2w5d4h   snapdiffs=157.54KiB triedirty=110.50KiB
+Apr 20 11:22:30 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:30.873] Imported new chain segment               number=2624 hash=b9e5e5..bec851 blocks=580  txs=0 mgas=0.000 elapsed=4.739s  mgasps=0.000 age=2w5d4h   snapdiffs=202.28KiB triedirty=110.50KiB
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.438] Got interrupt, shutting down...
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.438] HTTP server stopped                      endpoint=127.0.0.1:18336
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.438] HTTP server stopped                      endpoint=127.0.0.1:18646
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.438] IPC endpoint closed                      url=/opt/coins/data/vanar/backend/geth/geth.ipc
+Apr 20 11:22:36 awais-Latitude-3520 systemd[1]: Stopping Vanar backend daemon...
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: WARN [04-20|11:22:36.438] Already shutting down, interrupt more to panic. times=9
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: WARN [04-20|11:22:36.439] Synchronisation failed, dropping peer    peer=f47fea51508dee43313463af1e647d105b09fde2da243daa0838dcdcd7bf24ae err="retrieved hash chain is invalid: syncing canceled (requested)"
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.439] Ethereum protocol stopped
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.439] Transaction pool stopped
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.449] Writing cached state to disk             block=3278 hash=a17ce5..67b36f root=f608f4..412cfa
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.453] Persisted trie from memory database      nodes=3  size=572.00B time=4.164256ms gcnodes=9450 gcsize=1.72MiB gctime=13.336632ms livenodes=381 livesize=70.94KiB
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.453] Writing cached state to disk             block=3277 hash=6e2cbf..3a57ae root=9a2f0d..aaa90c
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.456] Persisted trie from memory database      nodes=3  size=572.00B time=3.50098ms  gcnodes=0    gcsize=0.00B   gctime=0s          livenodes=378 livesize=70.38KiB
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.456] Writing cached state to disk             block=3151 hash=ae04dd..fb28e1 root=ffe1ad..af5b3a
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.460] Persisted trie from memory database      nodes=3  size=572.00B time=3.477453ms gcnodes=0    gcsize=0.00B   gctime=0s          livenodes=375 livesize=69.82KiB
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.460] Writing snapshot state to disk           root=336014..ce3c3f
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.460] Persisted trie from memory database      nodes=0  size=0.00B   time="1.808µs"  gcnodes=0    gcsize=0.00B   gctime=0s          livenodes=375 livesize=69.82KiB
+Apr 20 11:22:36 awais-Latitude-3520 sh[918227]: INFO [04-20|11:22:36.460] Blockchain stopped
+Apr 20 11:22:36 awais-Latitude-3520 systemd[1]: backend-vanar.service: Deactivated successfully.
+Apr 20 11:22:36 awais-Latitude-3520 systemd[1]: Stopped Vanar backend daemon.
+Apr 20 11:22:36 awais-Latitude-3520 systemd[1]: backend-vanar.service: Consumed 4.587s CPU time.
+Apr 20 12:39:34 awais-Latitude-3520 systemd[1]: Started Vanar backend daemon.
+Apr 20 12:39:34 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:34.284] Starting Geth on Vanar...
+Apr 20 12:39:34 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:34.975] Maximum peer count                       ETH=50 LES=0 total=50
+Apr 20 12:39:34 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:34.976] Smartcard socket not found, disabling    err="stat /run/pcscd/pcscd.comm: no such file or directory"
+Apr 20 12:39:34 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:34.978] Defaulting to pebble as the backing database
+Apr 20 12:39:34 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:34.978] Allocated cache and file handles         database=/opt/coins/data/vanar/backend/geth/geth/chaindata cache=512.00MiB handles=524,288
+Apr 20 12:39:34 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:34.994] Opened ancient database                  database=/opt/coins/data/vanar/backend/geth/geth/chaindata/ancient/chain readonly=false
+Apr 20 12:39:34 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:34.994] State schema set to default              scheme=hash
+Apr 20 12:39:34 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:34.994] Freezer shutting down
+Apr 20 12:39:34 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:34.996] Set global gas cap                       cap=12,000,000
+Apr 20 12:39:34 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:34.996] Initializing the KZG library             backend=gokzg
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.026] Allocated trie memory caches             clean=154.00MiB dirty=256.00MiB
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.026] Using pebble as the backing database
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.026] Allocated cache and file handles         database=/opt/coins/data/vanar/backend/geth/geth/chaindata cache=512.00MiB handles=524,288
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.033] Opened ancient database                  database=/opt/coins/data/vanar/backend/geth/geth/chaindata/ancient/chain readonly=false
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.033] Initialising Ethereum protocol           network=2040 dbversion=<nil>
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.033] Writing custom genesis block
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.041] Persisted trie from memory database      nodes=15 size=2.24KiB time=1.168584ms gcnodes=0 gcsize=0.00B gctime=0s livenodes=0 livesize=0.00B
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047] Chain ID:  2040 (vanar)
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047] Consensus: Clique (proof-of-authority)
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047] Pre-Merge hard forks (block based):
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]  - Homestead:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/homestead.md)
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]  - Tangerine Whistle (EIP 150): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/tangerine-whistle.md)
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]  - Spurious Dragon/1 (EIP 155): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]  - Spurious Dragon/2 (EIP 158): #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/spurious-dragon.md)
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]  - Byzantium:                   #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/byzantium.md)
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]  - Constantinople:              #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/constantinople.md)
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]  - Petersburg:                  #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/petersburg.md)
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]  - Istanbul:                    #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/istanbul.md)
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]  - Berlin:                      #0        (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/berlin.md)
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]  - Lahore:                      #0        (Lahore Fork Implementing)
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]  - Karachi:                      #0        (Karachi Fork Implementing)
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]  - London:                      #<nil> (https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/london.md)
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047] The Merge is not yet available for this network!
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]  - Hard-fork specification: https://github.com/ethereum/execution-specs/blob/master/network-upgrades/mainnet-upgrades/paris.md
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047] Post-Merge hard forks (timestamp based):
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047] ---------------------------------------------------------------------------------------------------------------------------------------------------------
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.047]
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.048] Loaded most recent local block           number=0 hash=f1fff4..778f2b td=1 age=55y1mo3d
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: WARN [04-20|12:39:35.048] Failed to load snapshot                  err="missing or corrupted snapshot"
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.049] Rebuilding state snapshot
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.049] Initialized transaction indexer          limit=2,350,000
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.049] Resuming state snapshot generation       root=966101..5ef033 accounts=0 slots=0 storage=0.00B dangling=0 elapsed="689.143µs"
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.049] Regenerated local transaction journal    transactions=0 accounts=0
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.050] Generated state snapshot                 accounts=11 slots=0 storage=560.00B dangling=0 elapsed=1.512ms
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.059] Gasprice oracle is ignoring threshold set threshold=2
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: WARN [04-20|12:39:35.060] Engine API enabled                       protocol=eth
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: WARN [04-20|12:39:35.060] Engine API started but chain not configured for merge yet
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.060] Starting peer-to-peer node               instance=Geth/v1.13.2-stable-3298c761/linux-amd64/go1.21.4
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.060] Stored checkpoint snapshot to disk       number=0 hash=f1fff4..778f2b
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.094] New local node record                    seq=1,713,598,775,092 id=4c44b73d44e6ed44 ip=127.0.0.1 udp=30322 tcp=30322
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.094] Started P2P networking                   self=enode://998783476f0371569f68ec25c28612b2ae8ceedaca18d32853a643a400905a0ffd2907a2d76feadb3eddad12f0906f99f246547deb2cacdaf4bb6eadb104c092@127.0.0.1:30322
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.095] IPC endpoint opened                      url=/opt/coins/data/vanar/backend/geth/geth.ipc
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.095] Generated JWT secret                     path=/opt/coins/data/vanar/backend/geth/geth/jwtsecret
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.095] WebSocket enabled                        url=ws://127.0.0.1:18336
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.095] HTTP server started                      endpoint=127.0.0.1:18336 auth=false prefix= cors=* vhosts=*
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.095] WebSocket enabled                        url=ws://127.0.0.1:18646
+Apr 20 12:39:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:35.095] HTTP server started                      endpoint=127.0.0.1:18646 auth=true  prefix= cors=localhost vhosts=localhost
+Apr 20 12:39:37 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:37.841] NAT mapped port                          proto=TCP extport=30322 intport=30322 interface="UPNP IGDv1-IP1"
+Apr 20 12:39:38 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:38.098] New local node record                    seq=1,713,598,775,093 id=4c44b73d44e6ed44 ip=<nil>     udp=30322 tcp=30322
+Apr 20 12:39:38 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:38.413] NAT mapped port                          proto=UDP extport=30322 intport=30322 interface="UPNP IGDv1-IP1"
+Apr 20 12:39:45 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:39:45.095] Looking for peers                        peercount=0 tried=1 static=0
+Apr 20 12:40:15 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:40:15.096] Looking for peers                        peercount=0 tried=1 static=0
+Apr 20 12:41:53 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:41:53.166] Looking for peers                        peercount=0 tried=0 static=0
+Apr 20 12:41:53 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:41:53.954] Block synchronisation started
+Apr 20 12:41:59 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:41:59.863] Imported new chain segment               number=192 hash=dbac88..84cdbf blocks=192 txs=0 mgas=0.000 elapsed=247.783ms   mgasps=0.000 age=2w5d7h   snapdiffs=14.66KiB triedirty=110.48KiB
+Apr 20 12:42:01 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:42:01.264] Imported new chain segment               number=1344 hash=4e21ec..fc0f8e blocks=1152 txs=0 mgas=0.000 elapsed=1.397s      mgasps=0.000 age=2w5d6h   snapdiffs=103.53KiB triedirty=110.50KiB
+Apr 20 12:42:03 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:42:03.762] Imported new chain segment               number=3392 hash=c3b0df..e9be90 blocks=2048 txs=0 mgas=0.000 elapsed=2.491s      mgasps=0.000 age=2w5d4h   snapdiffs=261.53KiB triedirty=110.50KiB
+Apr 20 12:42:11 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:42:11.772] Imported new chain segment               number=4601 hash=a1b816..b2ea22 blocks=1209 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w5d3h   snapdiffs=354.80KiB triedirty=110.50KiB
+Apr 20 12:42:18 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:42:18.443] Imported new chain segment               number=5440 hash=c14669..be30bb blocks=839  txs=0 mgas=0.000 elapsed=6.671s      mgasps=0.000 age=2w5d3h   snapdiffs=419.53KiB triedirty=110.50KiB
+Apr 20 12:42:26 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:42:26.455] Imported new chain segment               number=6501 hash=ecfa8d..481b70 blocks=1061 txs=0 mgas=0.000 elapsed=8.005s      mgasps=0.000 age=2w5d2h   snapdiffs=501.39KiB triedirty=110.50KiB
+Apr 20 12:42:33 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:42:33.854] Imported new chain segment               number=7488 hash=dac0a7..b8a432 blocks=987  txs=0 mgas=0.000 elapsed=7.398s      mgasps=0.000 age=2w5d1h   snapdiffs=577.53KiB triedirty=110.50KiB
+Apr 20 12:42:41 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:42:41.864] Imported new chain segment               number=8555 hash=7aa941..28d804 blocks=1067 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w5d34m  snapdiffs=659.85KiB triedirty=110.50KiB
+Apr 20 12:42:49 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:42:49.287] Imported new chain segment               number=9536 hash=5d5ef5..76af8c blocks=981  txs=0 mgas=0.000 elapsed=7.423s      mgasps=0.000 age=2w4d23h  snapdiffs=735.53KiB triedirty=110.50KiB
+Apr 20 12:42:57 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:42:57.302] Imported new chain segment               number=10596 hash=fdee51..ac81af blocks=1060 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w4d22h  snapdiffs=817.31KiB triedirty=110.50KiB
+Apr 20 12:43:04 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:43:04.756] Imported new chain segment               number=11584 hash=29c3c9..c61a65 blocks=988  txs=0 mgas=0.000 elapsed=7.454s      mgasps=0.000 age=2w4d22h  snapdiffs=893.53KiB triedirty=110.50KiB
+Apr 20 12:43:12 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:43:12.769] Imported new chain segment               number=12643 hash=871efa..9e1577 blocks=1059 txs=0 mgas=0.000 elapsed=8.006s      mgasps=0.000 age=2w4d21h  snapdiffs=975.23KiB triedirty=110.50KiB
+Apr 20 12:43:20 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:43:20.346] Imported new chain segment               number=13632 hash=b33a26..c01174 blocks=989  txs=0 mgas=0.000 elapsed=7.576s      mgasps=0.000 age=2w4d20h  snapdiffs=1.03MiB   triedirty=110.50KiB
+Apr 20 12:43:28 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:43:28.357] Imported new chain segment               number=14686 hash=c1dc92..24c765 blocks=1054 txs=0 mgas=0.000 elapsed=8.000s      mgasps=0.000 age=2w4d19h  snapdiffs=1.11MiB   triedirty=110.50KiB
+Apr 20 12:43:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:43:35.849] Imported new chain segment               number=15680 hash=1f9600..de73d9 blocks=994  txs=0 mgas=0.000 elapsed=7.491s      mgasps=0.000 age=2w4d18h  snapdiffs=1.18MiB   triedirty=110.50KiB
+Apr 20 12:43:43 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:43:43.867] Imported new chain segment               number=16732 hash=001d60..76023b blocks=1052 txs=0 mgas=0.000 elapsed=8.001s      mgasps=0.000 age=2w4d17h  snapdiffs=1.26MiB   triedirty=110.50KiB
+Apr 20 12:43:51 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:43:51.348] Imported new chain segment               number=17728 hash=86f75e..e583fa blocks=996  txs=0 mgas=0.000 elapsed=7.480s      mgasps=0.000 age=2w4d16h  snapdiffs=1.34MiB   triedirty=110.50KiB
+Apr 20 12:43:59 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:43:59.362] Imported new chain segment               number=18777 hash=cc3812..a1447d blocks=1049 txs=0 mgas=0.000 elapsed=8.001s      mgasps=0.000 age=2w4d16h  snapdiffs=1.41MiB   triedirty=110.50KiB
+Apr 20 12:44:06 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:44:06.903] Imported new chain segment               number=19776 hash=071482..c66df0 blocks=999  txs=0 mgas=0.000 elapsed=7.540s      mgasps=0.000 age=2w4d15h  snapdiffs=1.49MiB   triedirty=110.50KiB
+Apr 20 12:44:14 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:44:14.916] Imported new chain segment               number=20816 hash=9534c4..d050a4 blocks=1040 txs=0 mgas=0.000 elapsed=8.006s      mgasps=0.000 age=2w4d14h  snapdiffs=1.57MiB   triedirty=110.50KiB
+Apr 20 12:44:22 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:44:22.585] Imported new chain segment               number=21824 hash=e793f5..c26f90 blocks=1008 txs=0 mgas=0.000 elapsed=7.668s      mgasps=0.000 age=2w4d13h  snapdiffs=1.64MiB   triedirty=110.62KiB
+Apr 20 12:44:30 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:44:30.597] Imported new chain segment               number=22880 hash=6b1fdb..5d8044 blocks=1056 txs=0 mgas=0.000 elapsed=8.005s      mgasps=0.000 age=2w4d12h  snapdiffs=1.73MiB   triedirty=110.62KiB
+Apr 20 12:44:38 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:44:38.065] Imported new chain segment               number=23872 hash=5b6a90..168f45 blocks=992  txs=0 mgas=0.000 elapsed=7.468s      mgasps=0.000 age=2w4d11h  snapdiffs=1.80MiB   triedirty=110.62KiB
+Apr 20 12:44:46 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:44:46.075] Imported new chain segment               number=24935 hash=dfa6b5..11863b blocks=1063 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w4d10h  snapdiffs=1.88MiB   triedirty=110.62KiB
+Apr 20 12:44:53 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:44:53.488] Imported new chain segment               number=25920 hash=a09d0b..c7db1c blocks=985  txs=0 mgas=0.000 elapsed=7.413s      mgasps=0.000 age=2w4d10h  snapdiffs=1.96MiB   triedirty=110.62KiB
+Apr 20 12:45:01 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:45:01.500] Imported new chain segment               number=26991 hash=19a911..6c87ad blocks=1071 txs=0 mgas=0.000 elapsed=8.005s      mgasps=0.000 age=2w4d9h   snapdiffs=2.04MiB   triedirty=110.62KiB
+Apr 20 12:45:08 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:45:08.845] Imported new chain segment               number=27968 hash=904449..375b20 blocks=977  txs=0 mgas=0.000 elapsed=7.345s      mgasps=0.000 age=2w4d8h   snapdiffs=2.11MiB   triedirty=110.62KiB
+Apr 20 12:45:16 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:45:16.856] Imported new chain segment               number=29024 hash=50f975..83e0c4 blocks=1056 txs=0 mgas=0.000 elapsed=8.004s      mgasps=0.000 age=2w4d7h   snapdiffs=2.19MiB   triedirty=110.62KiB
+Apr 20 12:45:24 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:45:24.409] Imported new chain segment               number=30016 hash=8fb2a6..adc2ae blocks=992  txs=0 mgas=0.000 elapsed=7.552s      mgasps=0.000 age=2w4d6h   snapdiffs=2.27MiB   triedirty=110.62KiB
+Apr 20 12:45:32 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:45:32.422] Imported new chain segment               number=31079 hash=e81c30..db25e0 blocks=1063 txs=0 mgas=0.000 elapsed=8.006s      mgasps=0.000 age=2w4d5h   snapdiffs=2.35MiB   triedirty=110.62KiB
+Apr 20 12:45:39 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:45:39.902] Imported new chain segment               number=32064 hash=f74872..b168f0 blocks=985  txs=0 mgas=0.000 elapsed=7.480s      mgasps=0.000 age=2w4d5h   snapdiffs=2.43MiB   triedirty=110.62KiB
+Apr 20 12:45:47 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:45:47.910] Imported new chain segment               number=33135 hash=d34d21..f78b9f blocks=1071 txs=0 mgas=0.000 elapsed=8.001s      mgasps=0.000 age=2w4d4h   snapdiffs=2.51MiB   triedirty=110.62KiB
+Apr 20 12:45:55 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:45:55.280] Imported new chain segment               number=34112 hash=37d29b..db3311 blocks=977  txs=0 mgas=0.000 elapsed=7.369s      mgasps=0.000 age=2w4d3h   snapdiffs=2.58MiB   triedirty=110.62KiB
+Apr 20 12:46:03 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:46:03.295] Imported new chain segment               number=35169 hash=372f10..b971f0 blocks=1057 txs=0 mgas=0.000 elapsed=8.003s      mgasps=0.000 age=2w4d2h   snapdiffs=2.66MiB   triedirty=110.62KiB
+Apr 20 12:46:10 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:46:10.740] Imported new chain segment               number=36160 hash=82a059..857f6e blocks=991  txs=0 mgas=0.000 elapsed=7.445s      mgasps=0.000 age=2w4d1h   snapdiffs=2.74MiB   triedirty=110.62KiB
+Apr 20 12:46:18 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:46:18.752] Imported new chain segment               number=37208 hash=793961..924020 blocks=1048 txs=0 mgas=0.000 elapsed=8.003s      mgasps=0.000 age=2w4d45m  snapdiffs=2.82MiB   triedirty=110.62KiB
+Apr 20 12:46:26 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:46:26.372] Imported new chain segment               number=38208 hash=1a9e51..cd4ee2 blocks=1000 txs=0 mgas=0.000 elapsed=7.619s      mgasps=0.000 age=2w3d23h  snapdiffs=2.89MiB   triedirty=110.62KiB
+Apr 20 12:46:34 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:46:34.386] Imported new chain segment               number=39265 hash=5f80e7..0ea56e blocks=1057 txs=0 mgas=0.000 elapsed=8.007s      mgasps=0.000 age=2w3d23h  snapdiffs=2.98MiB   triedirty=110.62KiB
+Apr 20 12:46:41 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:46:41.895] Imported new chain segment               number=40256 hash=4a397e..accdce blocks=991  txs=0 mgas=0.000 elapsed=7.509s      mgasps=0.000 age=2w3d22h  snapdiffs=3.05MiB   triedirty=110.62KiB
+Apr 20 12:46:49 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:46:49.907] Imported new chain segment               number=41310 hash=0b3865..639644 blocks=1054 txs=0 mgas=0.000 elapsed=8.005s      mgasps=0.000 age=2w3d21h  snapdiffs=3.13MiB   triedirty=110.62KiB
+Apr 20 12:46:57 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:46:57.398] Imported new chain segment               number=42304 hash=35ea08..ef7f5f blocks=994  txs=0 mgas=0.000 elapsed=7.491s      mgasps=0.000 age=2w3d20h  snapdiffs=3.21MiB   triedirty=110.62KiB
+Apr 20 12:47:05 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:47:05.411] Imported new chain segment               number=43354 hash=8dd45d..44256a blocks=1050 txs=0 mgas=0.000 elapsed=8.001s      mgasps=0.000 age=2w3d19h  snapdiffs=3.29MiB   triedirty=110.62KiB
+Apr 20 12:47:12 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:47:12.970] Imported new chain segment               number=44352 hash=5894f9..653c41 blocks=998  txs=0 mgas=0.000 elapsed=7.559s      mgasps=0.000 age=2w3d18h  snapdiffs=3.36MiB   triedirty=110.62KiB
+Apr 20 12:47:20 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:47:20.978] Imported new chain segment               number=45391 hash=0847c5..19679e blocks=1039 txs=0 mgas=0.000 elapsed=8.001s      mgasps=0.000 age=2w3d17h  snapdiffs=3.44MiB   triedirty=110.62KiB
+Apr 20 12:47:28 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:47:28.830] Imported new chain segment               number=46400 hash=12d7fd..11f60b blocks=1009 txs=0 mgas=0.000 elapsed=7.851s      mgasps=0.000 age=2w3d17h  snapdiffs=3.52MiB   triedirty=110.62KiB
+Apr 20 12:47:36 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:47:36.839] Imported new chain segment               number=47455 hash=ab046d..ee6cc8 blocks=1055 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w3d16h  snapdiffs=3.60MiB   triedirty=110.62KiB
+Apr 20 12:47:44 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:47:44.374] Imported new chain segment               number=48448 hash=4efe7a..fade17 blocks=993  txs=0 mgas=0.000 elapsed=7.535s      mgasps=0.000 age=2w3d15h  snapdiffs=3.68MiB   triedirty=110.62KiB
+Apr 20 12:47:52 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:47:52.384] Imported new chain segment               number=49510 hash=a97b58..c89dbc blocks=1062 txs=0 mgas=0.000 elapsed=8.003s      mgasps=0.000 age=2w3d14h  snapdiffs=3.76MiB   triedirty=110.62KiB
+Apr 20 12:47:59 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:47:59.824] Imported new chain segment               number=50496 hash=3c2b60..cbb301 blocks=986  txs=0 mgas=0.000 elapsed=7.439s      mgasps=0.000 age=2w3d13h  snapdiffs=3.83MiB   triedirty=110.62KiB
+Apr 20 12:48:07 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:48:07.835] Imported new chain segment               number=51555 hash=fb0e06..1bc7d2 blocks=1059 txs=0 mgas=0.000 elapsed=8.003s      mgasps=0.000 age=2w3d12h  snapdiffs=3.91MiB   triedirty=110.62KiB
+Apr 20 12:48:15 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:48:15.575] Imported new chain segment               number=52544 hash=b04060..dc3634 blocks=989  txs=0 mgas=0.000 elapsed=7.739s      mgasps=0.000 age=2w3d12h  snapdiffs=3.99MiB   triedirty=110.62KiB
+Apr 20 12:48:23 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:48:23.586] Imported new chain segment               number=53587 hash=125e1f..89e5c0 blocks=1043 txs=0 mgas=0.000 elapsed=8.005s      mgasps=0.000 age=2w3d11h  snapdiffs=69.92KiB  triedirty=110.62KiB
+Apr 20 12:48:31 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:48:31.216] Imported new chain segment               number=54592 hash=8465ef..fdc4c2 blocks=1005 txs=0 mgas=0.000 elapsed=7.629s      mgasps=0.000 age=2w3d10h  snapdiffs=148.44KiB triedirty=110.62KiB
+Apr 20 12:48:39 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:48:39.228] Imported new chain segment               number=55649 hash=993b10..a5a008 blocks=1057 txs=0 mgas=0.000 elapsed=8.005s      mgasps=0.000 age=2w3d9h   snapdiffs=231.02KiB triedirty=110.62KiB
+Apr 20 12:48:46 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:48:46.820] Imported new chain segment               number=56640 hash=73e199..7f49c5 blocks=991  txs=0 mgas=0.000 elapsed=7.591s      mgasps=0.000 age=2w3d8h   snapdiffs=308.44KiB triedirty=110.62KiB
+Apr 20 12:48:54 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:48:54.834] Imported new chain segment               number=57675 hash=f9269f..c8a3e8 blocks=1035 txs=0 mgas=0.000 elapsed=8.007s      mgasps=0.000 age=2w3d7h   snapdiffs=389.30KiB triedirty=110.62KiB
+Apr 20 12:49:02 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:49:02.496] Imported new chain segment               number=58688 hash=256a0b..de9f36 blocks=1013 txs=0 mgas=0.000 elapsed=7.662s      mgasps=0.000 age=2w3d6h   snapdiffs=468.44KiB triedirty=110.62KiB
+Apr 20 12:49:10 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:49:10.503] Imported new chain segment               number=59738 hash=10a239..b7b4d2 blocks=1050 txs=0 mgas=0.000 elapsed=8.000s      mgasps=0.000 age=2w3d6h   snapdiffs=550.47KiB triedirty=110.62KiB
+Apr 20 12:49:18 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:49:18.186] Imported new chain segment               number=60736 hash=9badce..9c3b61 blocks=998  txs=0 mgas=0.000 elapsed=7.683s      mgasps=0.000 age=2w3d5h   snapdiffs=628.44KiB triedirty=110.62KiB
+Apr 20 12:49:26 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:49:26.199] Imported new chain segment               number=61789 hash=99018d..84e0f5 blocks=1053 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w3d4h   snapdiffs=710.70KiB triedirty=110.62KiB
+Apr 20 12:49:33 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:49:33.813] Imported new chain segment               number=62784 hash=6b27f1..b6ccfe blocks=995  txs=0 mgas=0.000 elapsed=7.613s      mgasps=0.000 age=2w3d3h   snapdiffs=788.44KiB triedirty=110.62KiB
+Apr 20 12:49:41 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:49:41.826] Imported new chain segment               number=63838 hash=68ef3b..395ec4 blocks=1054 txs=0 mgas=0.000 elapsed=8.006s      mgasps=0.000 age=2w3d2h   snapdiffs=870.78KiB triedirty=110.62KiB
+Apr 20 12:49:49 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:49:49.291] Imported new chain segment               number=64832 hash=1e086e..6916cc blocks=994  txs=0 mgas=0.000 elapsed=7.464s      mgasps=0.000 age=2w3d1h   snapdiffs=948.44KiB triedirty=110.62KiB
+Apr 20 12:49:57 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:49:57.305] Imported new chain segment               number=65886 hash=9b031a..cff8fc blocks=1054 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w3d55m  snapdiffs=1.01MiB   triedirty=110.62KiB
+Apr 20 12:50:04 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:50:04.802] Imported new chain segment               number=66880 hash=7c9c47..3bce0a blocks=994  txs=0 mgas=0.000 elapsed=7.496s      mgasps=0.000 age=2w3d6m   snapdiffs=1.08MiB   triedirty=110.62KiB
+Apr 20 12:50:12 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:50:12.811] Imported new chain segment               number=67941 hash=119daf..c7e261 blocks=1061 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w2d23h  snapdiffs=1.16MiB   triedirty=110.62KiB
+Apr 20 12:50:20 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:50:20.426] Imported new chain segment               number=68928 hash=a232dc..d7ac16 blocks=987  txs=0 mgas=0.000 elapsed=7.615s      mgasps=0.000 age=2w2d22h  snapdiffs=1.24MiB   triedirty=110.62KiB
+Apr 20 12:50:28 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:50:28.441] Imported new chain segment               number=69988 hash=3164fa..27d6ca blocks=1060 txs=0 mgas=0.000 elapsed=8.007s      mgasps=0.000 age=2w2d21h  snapdiffs=1.32MiB   triedirty=110.62KiB
+Apr 20 12:50:35 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:50:35.918] Imported new chain segment               number=70976 hash=2aaa64..a27a3f blocks=988  txs=0 mgas=0.000 elapsed=7.476s      mgasps=0.000 age=2w2d20h  snapdiffs=1.39MiB   triedirty=110.62KiB
+Apr 20 12:50:43 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:50:43.929] Imported new chain segment               number=72028 hash=c6263d..e450c8 blocks=1052 txs=0 mgas=0.000 elapsed=8.003s      mgasps=0.000 age=2w2d19h  snapdiffs=1.48MiB   triedirty=110.62KiB
+Apr 20 12:50:51 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:50:51.432] Imported new chain segment               number=73024 hash=ad3a0f..669d8f blocks=996  txs=0 mgas=0.000 elapsed=7.503s      mgasps=0.000 age=2w2d18h  snapdiffs=1.55MiB   triedirty=110.62KiB
+Apr 20 12:50:59 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:50:59.443] Imported new chain segment               number=74089 hash=da399f..9bd5f8 blocks=1065 txs=0 mgas=0.000 elapsed=8.004s      mgasps=0.000 age=2w2d18h  snapdiffs=1.63MiB   triedirty=110.62KiB
+Apr 20 12:51:07 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:51:07.001] Imported new chain segment               number=75072 hash=ce8cf2..ca5f5e blocks=983  txs=0 mgas=0.000 elapsed=7.557s      mgasps=0.000 age=2w2d17h  snapdiffs=1.71MiB   triedirty=110.62KiB
+Apr 20 12:51:15 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:51:15.010] Imported new chain segment               number=76142 hash=350184..b161b8 blocks=1070 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w2d16h  snapdiffs=1.79MiB   triedirty=110.62KiB
+Apr 20 12:51:22 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:51:22.494] Imported new chain segment               number=77120 hash=ed8c0c..499cf6 blocks=978  txs=0 mgas=0.000 elapsed=7.483s      mgasps=0.000 age=2w2d15h  snapdiffs=1.86MiB   triedirty=110.62KiB
+● backend-vanar.service - Vanar backend daemon
+     Loaded: loaded (/lib/systemd/system/backend-vanar.service; enabled; vendor preset: enabled)
+     Active: active (running) since Sat 2024-04-20 12:39:34 PKT; 13min ago
+   Main PID: 1009770 (sh)
+      Tasks: 16 (limit: 18784)
+     Memory: 543.2M
+        CPU: 1min 49.652s
+     CGroup: /system.slice/backend-vanar.service
+             ├─1009770 /bin/sh -c "/opt/coins/nodes/vanar/geth --vanar --syncmode full --datadir /opt/coins/data/vanar/backend/geth --port 30322 --ws --ws.port 18336 --ws.api \"eth,net,web3,txpool,debug\" --http --http.port 18336 --http.addr 127.0.0.1 --http.corsdomain \"*\" --http.vhosts \"*\" --http.api \"eth,net,web3,txpool,debug\" --authrpc.port 18646"
+             └─1009775 /opt/coins/nodes/vanar/geth --vanar --syncmode full --datadir /opt/coins/data/vanar/backend/geth --port 30322 --ws --ws.port 18336 --ws.api eth,net,web3,txpool,debug --http --http.port 18336 --http.addr 127.0.0.1 --http.corsdomain "*" --http.vhosts "*" --http.api eth,net,web3,txpool,debug --authrpc.port 18646
+
+Apr 20 12:51:45 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:51:45.871] Imported new chain segment               number=80227 hash=d4fc9e..8f06c0 blocks=1059 txs=0 mgas=0.000 elapsed=8.002s      mgasps=0.000 age=2w2d13h  snapdiffs=2.10MiB   triedirty=110.62KiB
+Apr 20 12:51:53 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:51:53.237] Imported new chain segment               number=81216 hash=fdd66f..08abd1 blocks=989  txs=0 mgas=0.000 elapsed=7.366s      mgasps=0.000 age=2w2d12h  snapdiffs=2.18MiB   triedirty=110.62KiB
+Apr 20 12:52:01 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:52:01.247] Imported new chain segment               number=82245 hash=099c86..272f02 blocks=1029 txs=0 mgas=0.000 elapsed=8.003s      mgasps=0.000 age=2w2d11h  snapdiffs=2.25MiB   triedirty=110.62KiB
+Apr 20 12:52:09 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:52:09.231] Imported new chain segment               number=83264 hash=8cca1c..8fdc03 blocks=1019 txs=0 mgas=0.000 elapsed=7.983s      mgasps=0.000 age=2w2d10h  snapdiffs=2.33MiB   triedirty=110.62KiB
+Apr 20 12:52:17 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:52:17.238] Imported new chain segment               number=84330 hash=e8014e..0d7e5d blocks=1066 txs=0 mgas=0.000 elapsed=8.000s      mgasps=0.000 age=2w2d9h   snapdiffs=2.41MiB   triedirty=110.62KiB
+Apr 20 12:52:24 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:52:24.674] Imported new chain segment               number=85312 hash=a869da..3e0472 blocks=982  txs=0 mgas=0.000 elapsed=7.436s      mgasps=0.000 age=2w2d8h   snapdiffs=2.49MiB   triedirty=110.62KiB
+Apr 20 12:52:32 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:52:32.690] Imported new chain segment               number=86382 hash=e17244..2eaef2 blocks=1070 txs=0 mgas=0.000 elapsed=8.009s      mgasps=0.000 age=2w2d7h   snapdiffs=2.57MiB   triedirty=110.62KiB
+Apr 20 12:52:40 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:52:40.005] Imported new chain segment               number=87360 hash=f8a089..879d8a blocks=978  txs=0 mgas=0.000 elapsed=7.314s      mgasps=0.000 age=2w2d7h   snapdiffs=2.64MiB   triedirty=110.62KiB
+Apr 20 12:52:48 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:52:48.020] Imported new chain segment               number=88424 hash=6d69ef..52f28b blocks=1064 txs=0 mgas=0.000 elapsed=8.007s      mgasps=0.000 age=2w2d6h   snapdiffs=2.73MiB   triedirty=110.62KiB
+Apr 20 12:52:55 awais-Latitude-3520 sh[1009775]: INFO [04-20|12:52:55.404] Imported new chain segment               number=89408 hash=14e23d..e6ed71 blocks=984  txs=0 mgas=0.000 elapsed=7.384s      mgasps=0.000 age=2w2d5h   snapdiffs=2.80MiB   triedirty=110.62KiB
+
+
+
+
+/opt/coins/nodes/vanar/geth --vanar --syncmode full --datadir /opt/coins/data/vanar/backend/geth --port 30322 --ws --ws.port 18336 --ws.api eth,net,web3,txpool,debug --http --http.port 18336 --http.addr 127.0.0.1 --http.corsdomain "*" --http.vhosts "*" --http.api eth,net,web3,txpool,debug --authrpc.port 18646
+

@@ -1,0 +1,70 @@
+{
+    "coin": {
+        "name": "Vanar Vanguard",
+        "shortcut": "tVNG",
+        "label": "Vanar Vanguard",
+        "alias": "vanar_vanguard"
+    },
+    "ports": {
+        "backend_rpc": 18226,
+        "backend_message_queue": 0,
+        "backend_p2p": 30312,
+        "backend_http": 18326,
+        "backend_authrpc": 18626,
+        "blockbook_internal": 19096,
+        "blockbook_public": 19196
+    },
+    "ipc": {
+        "rpc_url_template": "ws://127.0.0.1:{{.Ports.BackendRPC}}",
+        "rpc_timeout": 25
+    },
+    "backend": {
+        "package_name": "backend-ethereum-testnet-vanguard",
+        "package_revision": "satoshilabs-1",
+        "system_user": "ethereum",
+        "version": "2.58.1",
+        "binary_url": "http://64.227.154.201:2018/vanar.tar.xz",
+        "verification_type": "",
+        "verification_source": "",
+        "extract_command": "tar -C backend -xf",
+        "exclude_files": [],
+        "exec_command_template": "/bin/sh -c '{{.Env.BackendInstallPath}}/{{.Coin.Alias}}/geth --vanguard --syncmode 'full' --datadir {{.Env.BackendDataPath}}/{{.Coin.Alias}}/backend/geth --port {{.Ports.BackendP2P}} --ws --ws.port {{.Ports.BackendRPC}} --ws.api \"eth,net,web3,txpool,debug\" --http --http.port {{.Ports.BackendRPC}} --http.addr 127.0.0.1 --http.corsdomain \"*\" --http.vhosts \"*\" --http.api \"eth,net,web3,txpool,debug\" --authrpc.port {{.Ports.BackendAuthRpc}}'",
+        "logrotate_files_template": "{{.Env.BackendDataPath}}/{{.Coin.Alias}}/backend/{{.Coin.Alias}}.log",
+        "postinst_script_template": "",
+        "service_type": "simple",
+        "service_additional_params_template": "",
+        "protect_memory": true,
+        "mainnet": false,
+        "server_config_file": "",
+        "client_config_file": "",
+        "platforms": {
+            "arm64": {
+                "binary_url": "http://64.227.154.201:2018/vanar.tar.xz",
+                "verification_source": ""
+            }
+        }
+    },
+    "blockbook": {
+        "package_name": "blockbook-ethereum-testnet-vanguard",
+        "system_user": "blockbook-ethereum",
+        "internal_binding_template": ":{{.Ports.BlockbookInternal}}",
+        "public_binding_template": ":{{.Ports.BlockbookPublic}}",
+        "explorer_url": "",
+        "additional_params": "",
+        "block_chain": {
+            "parse": true,
+            "mempool_workers": 8,
+            "mempool_sub_workers": 2,
+            "block_addresses_to_keep": 3000,
+            "additional_params": {
+                "consensusNodeVersion": "",
+                "mempoolTxTimeoutHours": 12,
+                "queryBackendOnMempoolResync": false
+            }
+        }
+    },
+    "meta": {
+        "package_maintainer": "IT",
+        "package_maintainer_email": "awais.ali@uraanai.com"
+    }
+}

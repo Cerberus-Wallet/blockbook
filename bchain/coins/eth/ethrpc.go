@@ -30,6 +30,8 @@ type Network uint32
 const (
 	// MainNet is production network
 	MainNet Network = 1
+	// Vanar MainNet is production network
+	Vanar Network = 2040
 	// TestNetSepolia is Sepolia test network
 	TestNetSepolia Network = 11155111
 	// TestNetHolesky is Holesky test network
@@ -129,7 +131,7 @@ func (b *EthereumRPC) Initialize() error {
 	// set chain specific
 	b.Client = ec
 	b.RPC = rc
-	b.MainNetChainID = MainNet
+	b.MainNetChainID = Vanar
 	b.NewBlock = &EthereumNewBlock{channel: make(chan *types.Header)}
 	b.NewTx = &EthereumNewTx{channel: make(chan ethcommon.Hash)}
 
@@ -146,6 +148,9 @@ func (b *EthereumRPC) Initialize() error {
 	case MainNet:
 		b.Testnet = false
 		b.Network = "livenet"
+	case Vanar:
+		b.Testnet = false
+		b.Network = "vanar"
 	case TestNetSepolia:
 		b.Testnet = true
 		b.Network = "sepolia"
@@ -414,7 +419,7 @@ func (b *EthereumRPC) GetChainInfo() (*bchain.ChainInfo, error) {
 	}
 	idi := int(id.Uint64())
 	if idi == int(b.MainNetChainID) {
-		rv.Chain = "mainnet"
+		rv.Chain = "vanar"
 	} else {
 		rv.Chain = "testnet " + strconv.Itoa(idi)
 	}

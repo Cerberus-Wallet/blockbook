@@ -12,15 +12,15 @@ services:
     # depends_on:
     #   - nginx
     privileged: true  # Necessary for systemd
-    network_mode: host
-    # ports:
+    # network_mode: host
+    ports:
     #   # - 443:19196
-    #   - 18226:18226
-    #   - 30312:30312
-    #   - 18326:18326
-    #   - 18626:18626
-    #   - 19096:19096
-    #   - 19196:19196
+      - 18226:18226
+      - 30312:30312
+      - 18326:18326
+      - 18626:18626
+      - 19096:19096
+      - 19196:19196
     # volumes:
     #   - ./docker_data/data:/opt/coins/data
 
