@@ -8,11 +8,11 @@ sudo systemctl daemon-reload
 sudo apt purge blockbook-vanar -y
 
 # Repeat for backend service
-sudo systemctl stop backend-vanar
-sudo systemctl disable backend-vanar
-sudo rm /etc/systemd/system/backend-vanar.service 
-sudo systemctl daemon-reload
-sudo apt purge backend-vanar -y
+# sudo systemctl stop backend-vanar
+# sudo systemctl disable backend-vanar
+# sudo rm /etc/systemd/system/backend-vanar.service 
+# sudo systemctl daemon-reload
+# sudo apt purge backend-vanar -y
 # 
 # # Remove installation directory
-sudo rm -r /opt/coins/nodes/vanar /opt/coins/data/vanar /opt/coins/blockbook/vanar
+# sudo rm -r /opt/coins/nodes/vanar /opt/coins/data/vanar /opt/coins/blockbook/vanar
